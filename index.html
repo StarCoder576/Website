@@ -1,1 +1,36 @@
-console.log('testing')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Content Changer</title>
+</head>
+<body>
+    <h1> TEST  WEBSITE </h1>
+    <p> Designed by Miles Wendel </p>
+  <div id="input">
+    <label for="userInput">Enter a Phrase:</label>
+    <input type="test" id="userInput">
+    <button onclick="checkInput()">Submit</button>
+
+  </div>
+  
+    <div id="contentContainer">
+        <p id="acceptedMessage" style="display: none;">Correct! Have a Reward</p>
+         <div  id="rewardImages" style="display: none; flex-direction: column; gap: 10px;"> 
+          <img src="https://www.petlandflorida.com/wp-content/uploads/2022/04/shutterstock_1290320698-1-scaled.jpg" width = '400' height = auto/>
+          <img src="https://www.thurstontalk.com/wp-content/uploads/2023/06/Oly-Camp-Kitties-no-cost-spay-neuter-cats-adoption-1068x1037.jpg" width = '400' height = auto/> </div>
+      
+        <p id="rejectedMessage" style="display: none;">Incorrect!</p>
+        <p id ="secretMessage" style="display: none;" >You Found the Secret! </p>
+
+        <div  id="secretImages" style="display: none; flex-direction: column; gap: 10px;"> 
+          <img src="https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg" width = '400' height = auto/>
+          <img src="https://static01.nyt.com/images/2016/06/15/dining/15PANCAKEGUIDE3-WEB/15PANCAKEGUIDE3-WEB-superJumbo.jpg" width = '400' height = auto/>
+          <img src="https://tastyoven.com/wp-content/uploads/2021/01/oat-milk-pancakes-image.jpg" width = '400' height = auto/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
