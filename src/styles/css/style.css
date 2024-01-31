@@ -1,11 +1,11 @@
 
 body {  
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(17,17,18,1) 100%);
+  background-image: linear-gradient(90deg, #171617, #383638);
 }
 
 body {
   display: grid;
+  color: #ffffff;
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,6 @@ body {
 heading {
   font-family:'Times New Roman';
   padding-top: 5vh;
-  
 }
 input {
   margin-top: 100px;
