@@ -1,0 +1,34 @@
+
+body {  
+  background-image: linear-gradient(45, #171617, #383638);
+}
+
+body {
+  display: grid;
+  color: #ffffff;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-items: center;
+}
+
+heading {
+  font-family:'Times New Roman';
+  padding-top: 5vh;
+}
+input {
+  margin-top: 100px;
+}
+
+button {
+  color:white;
+  background-color: #1e1d1e87;
+}
+
+
+
+
+
+
