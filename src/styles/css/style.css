@@ -27,11 +27,17 @@ button {
   background-color: #1e1d1e87;
 }
 
-#color-block{
-  color: #ff2222;
-  width: 500vw;
-  height:100vh;  
+.color-block {
+  position: fixed;
+  display: inline-block;
+  background-color: #1b1a1a;
+  width: 90vw;
+  height: 100vh;
+  bottom: 20vh;
+  top: 30vh;
 }
+
+
 
 
 
