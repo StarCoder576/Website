@@ -27,6 +27,11 @@ button {
   background-color: #1e1d1e87;
 }
 
+#color-block{
+  color: #ff2222;
+  width: 500vw;
+  height:100vh;  
+}
 
 
 
