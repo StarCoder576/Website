@@ -32,10 +32,11 @@ button {
   display: inline-block;
   background-color: #1b1a1a;
   width: 90vw;
-  height: 100vh;
-  bottom: 20vh;
-  top: 30vh;
+  height: 85vh;
+  bottom: 5vh;
+  top: 10vh;
 }
+
 
 
 
