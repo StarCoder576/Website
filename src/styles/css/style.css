@@ -21,6 +21,18 @@ body {
   top: 10vh;
 }
 
+.selector {
+  align-items: left;
+  align-content: left;
+  justify-items: left;
+  position: fixed;
+  background: #1b1a1a;
+  width: 10;
+  height: 85vh;
+  bottom: 5vh;
+  top: 10vh;
+
+}
 .heading {
   margin-left: 25px;
 }
