@@ -12,8 +12,7 @@ body {
   background-color: #1b1a1a;
   width: 80vw;
   height: 85vh;
-  bottom: 5vh;
-  top: 5vh;
+  top: 2.5vh;
   left: 15vw;
 }
 
@@ -22,14 +21,28 @@ body {
   background: #1b1a1a;
   width: 10vw;
   height: 85vh;
-  bottom: 5vh;
-  top: 5vh;
+  top: 7.5vh;
   left: 0vw;
   
 }
 
 .heading {
   margin-left: 25px;
+  font-family: monospace;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
