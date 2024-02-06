@@ -2,7 +2,7 @@
 
 body {
   background-color: #FFD59A;
-  
+
 }
 
 .color-block {
@@ -10,21 +10,22 @@ body {
   position: fixed;
   color: #FFD59A;
   background-color: rgb(72, 214, 115);
-  width: 80vw;
+  width: 90vw;
   height: 85vh;
   top: 7.5vh;
-  left: 15vw;
+  left: 5vw;
 }
 
-.selector {
+.display {
+  display: inline-block;
   position: fixed;
-  background: rgb(72, 214, 115);
-  width: 10vw;
+  background-color: #ffff;
+  width: 25;
   height: 85vh;
-  top: 7.5vh;
-  left: 0vw;
-  
+  top: 75vh;
+  left: 95vw;
 }
+
 
 .heading {
   margin-left: 25px;
