@@ -20,35 +20,57 @@ body {
 .display {
   display: inline-block;
   position: fixed;
-  background-color: #ffff;
+
   width: 45vw;
   height: 85vh;
   top: 7.5vh;
   left: 50vw;
 }
 
-.display img {
-  width: 100%; 
-    height: 100%;
-    position: absolute; 
-    top: 0; 
-    left: 0;
-    z-index: 5;
+.overylay {
+  display: inline-block;
+  position: fixed;
+
+  width: 20vw;
+  height: 5vh;
+  top: 80vh;
+  left: 50vw;
+}
+
+.overlay img {
+  width: auto; 
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  z-index: 5;
+  margin-right: 5px;
+}
+
+.underlay {
+  .overylay {
+    display: inline-block;
+    position: fixed;
+  
+    width: 20vw;
+    height: 5vh;
+    top: 60vh;
+    left: 50vw;
+}
+
+.underlay img {
+  width: auto; 
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  margin-right: 5px;
 }
 
 .heading {
   margin-left: 25px;
   font-family: monospace;
 }
-
-
-
-
-
-
-
-
-
 
 
 
