@@ -5,6 +5,10 @@ body {
 
 }
 
+.heading {
+  margin-left: 25px;
+  font-family: monospace;
+}
 
 .color-block {
   display: inline-block;
@@ -27,15 +31,6 @@ body {
   left: 50vw;
 }
 
-.overylay {
-  display: inline-block;
-  position: fixed;
-
-  width: 20vw;
-  height: 5vh;
-  top: 80vh;
-  left: 50vw;
-}
 
 .overlay img {
   width: auto; 
@@ -44,18 +39,6 @@ body {
   top: 0; 
   right: 0;
   z-index: 5;
-  margin-right: 5px;
-}
-
-.underlay {
-  .overylay {
-    display: inline-block;
-    position: fixed;
-  
-    width: 20vw;
-    height: 5vh;
-    top: 60vh;
-    left: 50vw;
 }
 
 .underlay img {
@@ -64,13 +47,46 @@ body {
   position: absolute; 
   top: 0; 
   right: 0;
-  margin-right: 5px;
 }
 
-.heading {
-  margin-left: 25px;
-  font-family: monospace;
+.leg-selector {
+  display: inline-block;
+  position: fixed;
+
+  width: 20vw;
+  height: 10vh;
+  top: 55vh;
+  left: 10vw;
 }
+
+.leg-selector img {
+  width: auto; 
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  margin-right: '5px'
+}
+.wood-selector {
+  display: inline-block;
+  position: fixed;
+
+  width: 20vw;
+  height: 10vh;
+  top: 70vh;
+  left: 10vw;
+}
+
+.wood-selector img {
+  width: auto; 
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  margin-right: '5px'
+}
+
+
+
+
 
 
 
