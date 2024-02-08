@@ -6,8 +6,19 @@ body {
 }
 
 .heading {
+  display: inline-block;
+  position: fixed;
+  width: 20vw;
+  height: 20vh;
+  top: 9vh;
+  left: 10vw;
+}
+
+title {
   margin-left: 25px;
   font-family: monospace;
+  color: #ffffff;
+  text-align: center;
 }
 
 .color-block {
