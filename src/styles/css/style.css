@@ -53,7 +53,7 @@ body {
   display: inline-block;
   position: fixed;
 
-  width: 20vw;
+  width: 60vw;
   height: 10vh;
   top: 55vh;
   left: 10vw;
@@ -66,11 +66,12 @@ body {
   top: 0; 
   margin-right: '5px'
 }
+
 .wood-selector {
   display: inline-block;
   position: fixed;
 
-  width: 20vw;
+  width: 60vw;
   height: 10vh;
   top: 70vh;
   left: 10vw;
