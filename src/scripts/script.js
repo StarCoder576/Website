@@ -42,27 +42,27 @@ function leg5() {
     fiveleg.style.display= 'inline-block'
 }
 
-function oak() {
+function oakS() {
     allwoodoff()
     oak.style.display = 'inline-block'
 }
 
-function beech() {
+function beechS() {
     allwoodoff()
     beech.style.display = 'inline-block'
 }
 
-function acacia() {
+function acaciaS() {
     allwoodoff()
     acacia.style.display = 'inline-block'
 }
 
-function mahogany() {
+function mahoganyS() {
     allwoodoff()
     mahogany.style.display = 'inline-block'
 }
 
-function teek() {
+function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
 }
