@@ -12,7 +12,7 @@ function allwoodoff() {
     beech.style.display= 'none';
     acacia.style.display= 'none';
     mahogany.style.display= 'none';
-    teed.style.display= 'none';
+    teek.style.display= 'none';
     
 }
 
@@ -62,7 +62,7 @@ function mahogany() {
     mahogany.style.display = 'inline-block'
 }
 
-function teed() {
+function teek() {
     allwoodoff()
-    teed.style.display = 'inline-block'
+    teek.style.display = 'inline-block'
 }
