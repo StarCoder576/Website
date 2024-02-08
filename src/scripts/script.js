@@ -66,3 +66,4 @@ function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
 }
+
