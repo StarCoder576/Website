@@ -1,11 +1,21 @@
-//Home Area
+//Back Button #############################################################################################################
 
-function chairarea () {
+function back() {
+    allwoodoff()
+    alllegsoff()
+    woodselector.style.display = 'none'
+    chairselector.style.display = 'none'
+    home.style.display = 'inline-block'
+}
+//Home Area  #############################################################################################################
+
+function chairarea() {
     oak.style.display = 'inline-block';
     fourleg.style.display = 'inline-block';
     woodselector.style.display = 'inline-block';
     chairselector.style.display = 'inline-block';
-    backbutton.style.display = 'inline-block'
+    backbutton.style.display = 'inline-block';
+    home.style.display = 'none';
 }
 
 
