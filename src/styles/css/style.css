@@ -41,15 +41,16 @@ body {
   top: 10vh;
   left: 10vw;
   text-align: center;
-  font-size: 6vw
+  font-size: 60px;
 }
 
 p.home-heading {
   top: 20vh;
-  font-size: 4vw;
+  font-size: 40px;
 }
 
 .chair-button {
+  display: fixed;
   width: 20vw;
   height: 20vh;
   top: 90vh;
