@@ -17,21 +17,36 @@ body {
   left: 5vw;
 }
 
-.home {
+.back-button {
+  display: inline-block;
+  position: fixed;
+  width: 5vw;
+  height: 5vh;
+  top: 8.5vh;
+  left: 6vw;
+}
+
+#home {
   width: 80vw;
   height: 75vh;
-  top: 10vh;
+  top: 15vh;
   left: 10vw;
 }
 
 .home-heading {
   display: inline-block;
   position: fixed;
-  width: 20vw;
+  width: 80vw;
   height: 20vh;
-  top: 15vh;
-  left: 50vw;
+  top: 10vh;
+  left: 10vw;
   text-align: center;
+  font-size: 6vw
+}
+
+p.home-heading {
+  top: 20vh;
+  font-size: 4vw;
 }
 
 .heading {
@@ -113,8 +128,6 @@ body {
   top: 0; 
   margin-right: '5px'
 }
-
-
 
 
 
