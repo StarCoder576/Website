@@ -20,14 +20,14 @@
       <p class = "home-heading">Designed by Miles Wendel</p>
 
       <div class = "chair-button">
-        <img src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/4%20legs.png">
+        <img src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/4%20legs.png" onclick="chairarea()">
       </div>
     </div>
     
     
     <div class = "design-area" style = "display: none;">
 
-      <div class = "back-button">
+      <div class = "back-button" id="backbutton">
         <img src="https://cdn.icon-icons.com/icons2/1123/PNG/512/backbuttoncircle_79559.png">
 
       </div>
@@ -88,7 +88,7 @@
       </div>
       
       <!--Wood Selector-->
-      <div class="wood-selector" id="wood-selector">
+      <div class="wood-selector" id="woodselector">
         <img style = "left:0vh;" onclick = "oakS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Oak.png">
         <img style = "left:11vh;" onclick = "beechS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Beech.png">
         <img style = "left:22vh;" onclick = "acaciaS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Acacia.png">
@@ -98,7 +98,7 @@
 
 
       <!--Chair Leg Selector-->
-      <div class="leg-selector" id = "chair-selector">
+      <div class="leg-selector" id = "chairselector">
         <img style = "left:0vw;"  onclick="leg1()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/1%20legs.png">
         <img style = "left:11vh;" onclick="leg2()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/2%20legs.png">
         <img style = "left:22vh;" onclick="leg3()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/3%20legs.png">

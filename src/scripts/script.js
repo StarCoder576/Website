@@ -1,6 +1,12 @@
 //Home Area
 
-
+function chairarea () {
+    oak.style.display = 'inline-block';
+    fourleg.style.display = 'inline-block';
+    woodselector.style.display = 'inline-block';
+    chairselector.style.display = 'inline-block';
+    backbutton.style.display = 'inline-block'
+}
 
 
 
