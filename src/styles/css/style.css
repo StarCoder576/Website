@@ -45,7 +45,7 @@ title {
 
 .overlay img {
   width: auto; 
-  height: 100%;
+  height: auto;
   position: absolute; 
   top: 0; 
   right: 0;
@@ -54,7 +54,7 @@ title {
 
 .underlay img {
   width: auto; 
-  height: 100%;
+  height: auto;
   position: absolute; 
   top: 0; 
   right: 0;

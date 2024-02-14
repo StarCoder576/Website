@@ -1,11 +1,6 @@
-function alllegsoff() {
-    oneleg.style.display= 'none';
-    twoleg.style.display= 'none';
-    threeleg.style.display= 'none';
-    fourleg.style.display= 'none';
-    fiveleg.style.display= 'none';
-}
+e
 
+// WOOD UNDERLAY
 function allwoodoff() {
     
     oak.style.display= 'none';
@@ -14,32 +9,6 @@ function allwoodoff() {
     mahogany.style.display= 'none';
     teek.style.display= 'none';
     
-}
-
-
-function leg1() {
-    alllegsoff()
-    oneleg.style.display= 'inline-block';
-}
-
-function leg2() {
-    alllegsoff()
-    twoleg.style.display= 'inline-block'
-}
-
-function leg3() {
-    alllegsoff()
-    threeleg.style.display= 'inline-block'
-}
-
-function leg4() {
-    alllegsoff()
-    fourleg.style.display= 'inline-block'
-}
-
-function leg5() {
-    alllegsoff()
-    fiveleg.style.display= 'inline-block'
 }
 
 function oakS() {
@@ -66,6 +35,51 @@ function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
 }
+
+
+// CHAIR
+function alllegsoff() {
+    oneleg.style.display= 'none';
+    twoleg.style.display= 'none';
+    threeleg.style.display= 'none';
+    fourleg.style.display= 'none';
+    fiveleg.style.display= 'none';
+}
+
+function leg1() {
+    alllegsoff()
+    oneleg.style.display= 'inline-block';
+}
+
+function leg2() {
+    alllegsoff()
+    twoleg.style.display= 'inline-block'
+}
+
+function leg3() {
+    alllegsoff()
+    threeleg.style.display= 'inline-block'
+}
+
+function leg4() {
+    alllegsoff()
+    fourleg.style.display= 'inline-block'
+}
+
+function leg5() {
+    alllegsoff()
+    fiveleg.style.display= 'inline-block'
+}
+
+
+
+//TABLE
+function tablelegsoff() {
+    
+}
+
+
+
 
 
 
