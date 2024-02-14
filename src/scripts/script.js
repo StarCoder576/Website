@@ -1,4 +1,23 @@
-e
+//Home Area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // WOOD UNDERLAY
 function allwoodoff() {
