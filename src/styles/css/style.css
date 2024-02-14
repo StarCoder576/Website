@@ -49,6 +49,13 @@ p.home-heading {
   font-size: 4vw;
 }
 
+.chair-button {
+  width: 20vw;
+  height: 20vh;
+  top: 90vh;
+  left: 9vw;
+}
+
 .heading {
   display: inline-block;
   position: fixed;
