@@ -22,7 +22,8 @@ function back() {
     backbutton.style.display = 'none';
     chairmode = false;
     tablemode = false;
-    stoomode = false;
+    stoolmode = false;
+    display.style.display = 'none'
 }
 //Home Area  #############################################################################################################
 
@@ -34,6 +35,7 @@ function chairarea() {
     backbutton.style.display = 'inline-block';
     home.style.display = 'none';
     chairmode = true;
+    display.style.display = 'inline-block'
 }
 
 function tablearea() {
@@ -51,6 +53,7 @@ function tablearea() {
     backbutton.style.display = 'inline-block'
     home.style.display = 'none'
     tablemode = true;
+    display.style.display = 'inline-block'
 }
 
 function stoolarea () {
@@ -67,7 +70,7 @@ function stoolarea () {
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
     home.style.display = 'none'
-
+    display.style.display = 'inline-block'
     stoolmode = true
 }
 

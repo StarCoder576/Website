@@ -56,9 +56,9 @@ p.home-heading {
 
 .chair-button {
   position: fixed;
-  width: 20vw;
-  height: 20vh;
-  top: 70vh;
+  width: 35vw;
+  height: 35vh;
+  top: 55vh;
   left: 12.5vw;
 }
 
@@ -68,10 +68,10 @@ p.home-heading {
 
 .table-button {
   position: fixed;
-  width: 20vw;
-  height: 20vh;
-  top: 70vh;
-  left: 37.5vw;
+  width: 35vw;
+  height: 35vh;
+  top: 55vh;
+  left: 52.5vw;
 }
 
 .table-button img {
@@ -80,10 +80,10 @@ p.home-heading {
 
 .stool-button {
   position: fixed;
-  width: 20vw;
-  height: 20vh;
-  top: 70vh;
-  left: 62.5vw;
+  width: 35vw;
+  height: 35vh;
+  top: 55vh;
+  left: 92.5vw;
 }
 
 .stool-button img {
