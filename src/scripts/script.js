@@ -6,6 +6,7 @@ function back() {
     woodselector.style.display = 'none'
     chairselector.style.display = 'none'
     home.style.display = 'inline-block'
+    backbutton.style.display = 'none'
 }
 //Home Area  #############################################################################################################
 
