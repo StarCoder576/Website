@@ -25,6 +25,7 @@ function back() {
     stoolmode = false;
     display.style.display = 'none'
 }
+
 //Home Area  #############################################################################################################
 
 function chairarea() {
