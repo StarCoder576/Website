@@ -1,4 +1,5 @@
 // Variables ########################################################################################################################
+let home = true
 let chairmode = false;
 let tablemode = false;
 let stoolmode = false;
@@ -35,8 +36,40 @@ function chairarea() {
     chairmode = true;
 }
 
+function tablearea() {
+    if (darkmode === true) {
+        tablefourlegDARK.style.display = 'inline-block'
+        tableselectorDARK.style.display = 'inline-block'
+    }
 
+    if (darkmode === false) {
+        tablefourleg.style.display = 'inline-block'
+        tableselector.style.display = 'inline-block'
+    }
+    oak.style.display = 'inline-block';
+    woodselector.style.display = 'inline-block'
+    backbutton.style.display = 'inline-block'
+    home.style.display = 'none'
+    tablemode = true;
+}
 
+function stoolarea () {
+    if (darkmode === true) {
+        stoolthreelegDark.style.display = 'inline-block';
+        stoolselectorDARK.style.display = 'inline-block'
+    }
+
+    if (darkmode === false) {
+        stoolthreeleg.style.display = 'inline-block'
+        stoolselector.style.display = 'inline-block'
+    }
+    oak.style.display = 'inline-block';
+    woodselector.style.display = 'inline-block'
+    backbutton.style.display = 'inline-block'
+    home.style.display = 'none'
+
+    stoolmode = true
+}
 
 
 

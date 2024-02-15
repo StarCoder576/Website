@@ -59,10 +59,34 @@ p.home-heading {
   width: 20vw;
   height: 20vh;
   top: 70vh;
-  left: 9vw;
+  left: 12.5vw;
 }
 
 .chair-button img {
+  height: 100%
+}
+
+.table-button {
+  position: fixed;
+  width: 20vw;
+  height: 20vh;
+  top: 70vh;
+  left: 37.5vw;
+}
+
+.table-button img {
+  height: 100%
+}
+
+.stool-button {
+  position: fixed;
+  width: 20vw;
+  height: 20vh;
+  top: 70vh;
+  left: 62.5vw;
+}
+
+.stool-button img {
   height: 100%
 }
 
