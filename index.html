@@ -25,16 +25,16 @@
     </div>
     
     
-    <div class = "design-area" style = "display: none;">
+    <div class = "design-area">
 
-      <div class = "back-button" id="backbutton">
+      <div class = "back-button" id="backbutton" style = "display: none;">
         <img src="https://cdn.icon-icons.com/icons2/1123/PNG/512/backbuttoncircle_79559.png" onclick="back()">
 
       </div>
       <div class = "heading">
-        <h1 class="title" id = "chair-title">Make Your Own Chair!</h1>
-        <h1 class="title" id = "table-title">Make Your Own Table!</h1>
-        <h1 class="title" id = "stool-title">Make Your Own Stool!</h1>
+        <h1 class="title" id = "chair-title" style = "display: none;">Make Your Own Chair!</h1>
+        <h1 class="title" id = "table-title" style = "display: none;">Make Your Own Table!</h1>
+        <h1 class="title" id = "stool-title" style = "display: none;">Make Your Own Stool!</h1>
       </div> 
 
       <!--Image Display-->
@@ -43,19 +43,19 @@
 
         <!--Wood Underlay-->
         <div class = "underlay">
-          <img id="oak" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Oak.png">
-          <img id="beech" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Beech.png">
-          <img id="acacia" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Acacia.png">
-          <img id="mahogany" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Mahogany.png">
-          <img id="teek" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Teek.png">
+          <img style = "display: none;" id="oak" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Oak.png">
+          <img style = "display: none;" id="beech" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Beech.png">
+          <img style = "display: none;" id="acacia" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Acacia.png">
+          <img style = "display: none;" id="mahogany" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Mahogany.png">
+          <img style = "display: none;" id="teek" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Teek.png">
         </div>
 
         <!--The chair cutout-->
         <div class = "overlay" id = "chair">
-          <img id="oneleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/1%20legs.png">
-          <img id="twoleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/2%20legs.png">
-          <img id="threeleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/3%20legs.png">
-          <img id="fourleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/4%20legs.png">
+          <img style = "display: none;" id="oneleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/1%20legs.png">
+          <img style = "display: none;" id="twoleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/2%20legs.png">
+          <img style = "display: none;" id="threeleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/3%20legs.png">
+          <img style = "display: none;" id="fourleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/4%20legs.png">
           <img style = "display: none;" id="fiveleg" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/5%20legs.png">
         </div>
 
@@ -63,7 +63,7 @@
           <img style = "display: none;" id="table-oneleg" src="">
           <img style = "display: none;" id="table-twoleg" src="">
           <img style = "display: none;" id="table-threeleg" src="">
-          <img id="table-fourleg" src="">
+          <img style = "display: none;" id="table-fourleg" src="">
           <img style = "display: none;" id="table-fiveleg" src="">
         </div>
 
@@ -71,7 +71,7 @@
           <img style = "display: none;" id="stool-oneleg" src="">
           <img style = "display: none;" id="stool-twoleg" src="">
           <img style = "display: none;" id="stool-threeleg" src="">
-          <img id="stool-fourleg" src="">
+          <img style = "display: none;" id="stool-fourleg" src="">
           <img style = "display: none;" id="stool-fiveleg" src="">
         </div>
 
@@ -88,7 +88,7 @@
       </div>
       
       <!--Wood Selector-->
-      <div class="wood-selector" id="woodselector">
+      <div class="wood-selector" id="woodselector" style = "display: none;">
         <img style = "left:0vh;" onclick = "oakS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Oak.png">
         <img style = "left:11vh;" onclick = "beechS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Beech.png">
         <img style = "left:22vh;" onclick = "acaciaS()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/Acacia.png">
@@ -98,7 +98,7 @@
 
 
       <!--Chair Leg Selector-->
-      <div class="leg-selector" id = "chairselector">
+      <div class="leg-selector" id = "chairselector" style = "display: none;">
         <img style = "left:0vw;"  onclick="leg1()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/1%20legs.png">
         <img style = "left:11vh;" onclick="leg2()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/2%20legs.png">
         <img style = "left:22vh;" onclick="leg3()" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/3%20legs.png">
