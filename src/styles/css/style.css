@@ -54,7 +54,7 @@ p.home-heading {
   font-size: 40px;
 }
 
-.chair-button {
+.home-buttons {
   position: fixed;
   width: 35vw;
   height: 35vh;
@@ -62,29 +62,11 @@ p.home-heading {
   left: 12.5vw;
 }
 
-.chair-button img {
-  height: 100%
+.home-buttons img {
+  height: 100%;
+  margin: 5vw;
 }
 
-.table-button {
-  position: fixed;
-  width: 35vw;
-  height: 35vh;
-  top: 55vh;
-  left: 52.5vw;
-}
-
-.table-button img {
-  height: 100%
-}
-
-.stool-button {
-  position: fixed;
-  width: 35vw;
-  height: 35vh;
-  top: 55vh;
-  left: 92.5vw;
-}
 
 .stool-button img {
   height: 100%
