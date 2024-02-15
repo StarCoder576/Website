@@ -1,5 +1,5 @@
 // Variables ########################################################################################################################
-let home = true
+let homemode = true
 let chairmode = false;
 let tablemode = false;
 let stoolmode = false;
