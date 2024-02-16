@@ -72,13 +72,13 @@ p.home-heading {
   position: fixed;
   width: 35vw;
   height: 35vh;
-  top: 55vh;
+  top: 45vh;
   left: 12.5vw;
 }
 
 .home-buttons img {
   height: 100%;
-  margin: 5vw;
+  margin-right: 5vw;
 }
 
 
