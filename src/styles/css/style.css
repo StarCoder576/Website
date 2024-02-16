@@ -71,7 +71,7 @@ p.home-heading {
 
 .home-buttons {
   position: fixed;
-  width: 35vw;
+  width: auto;
   height: 35vh;
   top: 45vh;
   left: 12.5vw;
