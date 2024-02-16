@@ -20,10 +20,11 @@ body {
 .mode-button {
   display: inline-block;
   position: fixed;
-  width: 5vw;
-  height: 5vh;
+  width: 8vw;
+  height: 8vh;
   top: 7.5vh;
   right: 5vw;
+  z-index: 3;
 }
 
 .mode-button img {

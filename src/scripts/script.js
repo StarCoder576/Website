@@ -33,7 +33,7 @@ function back() {
 // Dark Mode/ Light Mode Button ##################################################################
 
 function modechange () {
-    if (darkmode == true) {
+    if (darkmode === true) {
         darkmode = false;
         lightmodebutton.style.display = 'none'
         darkmodebutton.style.display = 'inline-block'
@@ -115,12 +115,12 @@ function modechange () {
         }
     }
     
-    if (darkmode == false) {
+    if (darkmode === false) {
         darkmode = true;
         lightmodebutton.style.display = 'inline-block'
         darkmodebutton.style.display = 'none'
         document.body.style.backgroundColor = "#5e1ed6";
-        colorblock.style.backgroundColor = '#4a9360'
+        colorblock.style.backgroundColor = '#696969'
 
         if (chairmode === true) {
             chairselectorDARK.style.display = 'inline-block'
