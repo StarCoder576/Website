@@ -13,11 +13,11 @@
 
 <body>
   <!--Where all of the info will be stored-->`
-  <div class = 'color-block'>
+  <div class = 'color-block' id="colorblock">
 
     <div id="home">
-      <h1 class = "home-heading">Design your own furniture!</h1>
-      <p class = "home-heading">Designed by Miles Wendel</p>
+      <h1 class = "home-heading" id='homeheading'>Design your own furniture!</h1>
+      <p class = "home-heading" id = 'homeheading'>Designed by Miles Wendel</p>
 
       <div class = "home-buttons">
         <img src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/4%20legs.png" onclick="chairarea()">
@@ -32,12 +32,16 @@
 
       <div class = "back-button" id="backbutton" style = "display: none;">
         <img src="https://cdn.icon-icons.com/icons2/1123/PNG/512/backbuttoncircle_79559.png" onclick="back()">
+      </div>
 
+      <div class = 'mode-button' id="modebutton">
+        <img id = 'darkmodebutton' style="display: none;" src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/kisspng-computer-icons-icon-design-sun-png-5ac5ae014a08e7.8621836315229045773033.png">
+        <img id = 'lightmodebutton' src="https://raw.githubusercontent.com/StarCoder576/Website/main/Images/ae002b374b9e0e1df843e02590ed3bf8-removebg-preview.png">
       </div>
       <div class = "heading">
-        <h1 class="title" id = "chair-title" style = "display: none;">Make Your Own Chair!</h1>
-        <h1 class="title" id = "table-title" style = "display: none;">Make Your Own Table!</h1>
-        <h1 class="title" id = "stool-title" style = "display: none;">Make Your Own Stool!</h1>
+        <h1 class="title" id = "chairtitle" style = "display: none;">Make Your Own Chair!</h1>
+        <h1 class="title" id = "tabletitle" style = "display: none;">Make Your Own Table!</h1>
+        <h1 class="title" id = "stooltitle" style = "display: none;">Make Your Own Stool!</h1>
       </div> 
 
       <!--Image Display ########################################################-->

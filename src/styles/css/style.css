@@ -6,15 +6,29 @@ body {
 }
 
 
-.color-block {
+#color-block {
   display: inline-block;
   position: fixed;
   color: #ffffff;
-  background-color: rgb(72, 214, 115);
+  background-color: #4a9360;
   width: 90vw;
   height: 85vh;
   top: 7.5vh;
   left: 5vw;
+}
+
+.mode-button {
+  display: inline-block;
+  position: fixed;
+  width: 5vw;
+  height: 5vh;
+  top: 7.5vh;
+  right: 5vw;
+}
+
+.mode-button img {
+  height: 100%;
+  width: auto;
 }
 
 .back-button {
