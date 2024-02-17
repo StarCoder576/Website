@@ -547,5 +547,3 @@ function stoolleg5DARK () {
 
 
 
-
-
