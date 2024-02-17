@@ -32,9 +32,90 @@ function back() {
 
 // Dark Mode/ Light Mode Button ##################################################################
 
-function darkmodechange () {
+function modechange () {
+    if (darkmode === true) {
+        darkmode = false;
+        lightmodebutton.style.display = 'none'
+        darkmodebutton.style.display = 'inline-block'
+        document.body.style.backgroundColor = "#FFD59A"
+        colorblock.style.backgroundColor = '#4d4d4d'
 
+
+        if (chairmode === true) {
+            chairselectorDARK.style.display = 'none'
+            chairselector.style.display = 'inline-block'
+
+            if (legcount == 1) {
+                leg1()
+            }
+
+            if (legcount == 2) {
+                leg2()
+            }
+
+            if (legcount == 3) {
+                leg3()
+            }
+
+            if (legcount == 4) {
+                leg4()
+            }
+
+            if (legcount == 5) {
+                leg5()
+            }
+        }
+
+        if (tablemode === true) {
+            tableselectorDARK.style.display = 'none'
+            tableselector.style.display = 'inline-block'
+            if (legcount == 1) {
+                tableleg1()
+            }
+
+            if (legcount == 2) {
+                tableleg2()
+            }
+
+            if (legcount == 3) {
+                tableleg3()
+            }
+
+            if (legcount == 4) {
+                tableleg4()
+            }
+
+            if (legcount == 5) {
+                tableleg5()
+            }
+        }
+
+        if (stoolmode === true) {
+            stoolselector.style.display = 'inline-block'
+            stoolselectorDARK.style.display = 'none'
+            if (legcount == 1) {
+                stoolleg1()
+            }
+
+            if (legcount == 2) {
+                stoolleg2()
+            }
+
+            if (legcount == 3) {
+                stoolleg3()
+            }
+
+            if (legcount == 4) {
+                stoolleg4()
+            }
+
+            if (legcount == 5) {
+                stoolleg5()
+            }
+        }
+    }
     
+    if (darkmode === false) {
         darkmode = true;
         lightmodebutton.style.display = 'inline-block'
         darkmodebutton.style.display = 'none'
@@ -115,90 +196,8 @@ function darkmodechange () {
         }
     }
 
-function lightmodechange () {
 
-        darkmode = false;
-        lightmodebutton.style.display = 'none'
-        darkmodebutton.style.display = 'inline-block'
-        document.body.style.backgroundColor = "#FFD59A";
-        colorblock.style.backgroundColor = '#4d4d4d'
-
-
-        if (chairmode === true) {
-            chairselectorDARK.style.display = 'none'
-            chairselector.style.display = 'inline-block'
-
-            if (legcount == 1) {
-                leg1()
-            }
-
-            if (legcount == 2) {
-                leg2()
-            }
-
-            if (legcount == 3) {
-                leg3()
-            }
-
-            if (legcount == 4) {
-                leg4()
-            }
-
-            if (legcount == 5) {
-                leg5()
-            }
-        }
-
-        if (tablemode === true) {
-            tableselectorDARK.style.display = 'none'
-            tableselector.style.display = 'inline-block'
-            if (legcount == 1) {
-                tableleg1()
-            }
-
-            if (legcount == 2) {
-                tableleg2()
-            }
-
-            if (legcount == 3) {
-                tableleg3()
-            }
-
-            if (legcount == 4) {
-                tableleg4()
-            }
-
-            if (legcount == 5) {
-                tableleg5()
-            }
-        }
-
-        if (stoolmode === true) {
-            stoolselector.style.display = 'inline-block'
-            stoolselectorDARK.style.display = 'none'
-            if (legcount == 1) {
-                stoolleg1()
-            }
-
-            if (legcount == 2) {
-                stoolleg2()
-            }
-
-            if (legcount == 3) {
-                stoolleg3()
-            }
-
-            if (legcount == 4) {
-                stoolleg4()
-            }
-
-            if (legcount == 5) {
-                stoolleg5()
-            }
-        }
     }
-
-    
 
 
 //Home Area  #############################################################################################################
