@@ -121,7 +121,7 @@ function lightmodechange () {
     lightmodebutton.style.display = 'none'
     darkmodebutton.style.display = 'inline-block'
     document.body.style.backgroundColor = "#FFD59A";
-    colorblock.style.backgroundColor = '#4d4d4d'
+    colorblock.style.backgroundColor = '#18ed78'
 
 
     if (chairmode === true) {
