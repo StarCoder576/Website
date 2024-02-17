@@ -524,7 +524,7 @@ function stoolleg1DARK () {
 function stoolleg2DARK () {
     alllegsoff()
     stooltwolegDARK.style.display = 'inline-block'
-    legcount = 4
+    legcount = 2
 }
 
 function stoolleg3DARK () {
