@@ -541,7 +541,7 @@ function stoolleg4DARK () {
 
 function stoolleg5DARK () {
     alllegsoff()
-    stoolfivielegDARK.style.display = 'inline-block'
+    stoolfivelegDARK.style.display = 'inline-block'
     legcount = 5
 }
 
