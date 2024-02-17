@@ -90,7 +90,7 @@ p.home-heading {
 .heading {
   display: inline-block;
   position: fixed;
-  width: 20vw;
+  width: 30vw;
   height: 20vh;
   top: 9vh;
   left: 10vw;
@@ -98,9 +98,9 @@ p.home-heading {
 
 .title {
   margin-left: 25px;
-  font-family: monospace;
   color: #ffffff;
   text-align: center;
+  font-size: 50px;
 }
 
 .display {
