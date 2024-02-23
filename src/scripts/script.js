@@ -235,12 +235,15 @@ function chairarea() {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
-    home.style.display = 'none'
     chairmode = true;
     homemode = false;
     display.style.display = 'inline-block'
     chairtitle.style.display = 'inline-block'
     legcount = 4
+
+    homeheading.style.display = 'none'
+    LightModeHomeButtons.style.display = 'none'
+    DarkModeHomeButtons.style.display = 'none'
 }
 
 function tablearea() {
@@ -256,12 +259,15 @@ function tablearea() {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
-    home.style.display = 'none'
     tablemode = true;
     homemode = false;
     display.style.display = 'inline-block'
     tabletitle.style.display = 'inline-block'
     legcount = 4
+
+    homeheading.style.display = 'none'
+    LightModeHomeButtons.style.display = 'none'
+    DarkModeHomeButtons.style.display = 'none'
 }
 
 function stoolarea () {
@@ -277,12 +283,15 @@ function stoolarea () {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
-    home.style.display = 'none'
     display.style.display = 'inline-block'
     stoolmode = true
     homemod = false; 
     stooltitle.style.display = 'inline-block'
     legcount = 3
+
+    homeheading.style.display = 'none'
+    LightModeHomeButtons.style.display = 'none'
+    DarkModeHomeButtons.style.display = 'none'
 }
 
 
