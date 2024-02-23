@@ -18,7 +18,6 @@ function back() {
     tableselectorDARK.style.display = 'none';
     stoolselectorDARK.style.display = 'none';
     stoolselector.style.display = 'none';
-    home.style.display = 'inline-block';
     backbutton.style.display = 'none';
     homemode = true;
     chairmode = false;
@@ -28,6 +27,16 @@ function back() {
     chairtitle.style.display = 'none'
     tabletitle.style.display = 'none'
     stooltitle.style.display = 'none'
+    homeheading.style.display = 'inline-block'
+
+    if (darkmode === true) {
+        DarkModeHomeButtons.style.display = 'inline-block'
+    }
+
+    if (darkmode === false) {
+        LightModeHomeButtons.style.display = 'inline-block'
+    }
+
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
@@ -38,8 +47,9 @@ function darkmodechange () {
     darkmode = true;
     lightmodebutton.style.display = 'inline-block'
     darkmodebutton.style.display = 'none'
-    document.body.style.backgroundColor = "#5e1ed6";
-    colorblock.style.backgroundColor = '#696969'
+    document.body.style.backgroundColor = "#696969;"
+    colorblock.style.backgroundColor = '#3a3645'
+   
 
     if (chairmode === true) {
         chairselectorDARK.style.display = 'inline-block'
@@ -112,6 +122,11 @@ function darkmodechange () {
         if (legcount == 5) {
             stoolleg5DARK()
         }
+    }
+
+    if (homemode === true) {
+        DarkModeHomeButtons.style.display = 'inline-block'
+        LightModeHomeButtons.style.display = 'none'
     }
 }
 
@@ -195,6 +210,11 @@ function lightmodechange () {
         if (legcount == 5) {
             stoolleg5()
         }
+    }
+
+    if (homemode === true) {
+        DarkModeHomeButtons.style.display = 'none'
+        LightModeHomeButtons.style.display = 'inline-block'
     }
 }
 
