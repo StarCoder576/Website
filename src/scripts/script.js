@@ -28,15 +28,7 @@ function back() {
     tabletitle.style.display = 'none'
     stooltitle.style.display = 'none'
     homeheading.style.display = 'inline-block'
-
-    if (darkmode === true) {
-        DarkModeHomeButtons.style.display = 'inline-block'
-    }
-
-    if (darkmode === false) {
-        LightModeHomeButtons.style.display = 'inline-block'
-    }
-
+    homebuttons.style.display = 'none'
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
