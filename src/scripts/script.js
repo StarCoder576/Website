@@ -48,7 +48,7 @@ function darkmodechange () {
     lightmodebutton.style.display = 'inline-block'
     darkmodebutton.style.display = 'none'
     document.body.style.backgroundColor = "#696969;"
-    colorblock.style.backgroundColor = '#3a3645'
+    colorblock.style.backgroundColor = '#000000'
    
 
     if (chairmode === true) {
@@ -573,6 +573,5 @@ function stoolleg5DARK () {
     stoolfivelegDARK.style.display = 'inline-block'
     legcount = 5
 }
-
 
 
