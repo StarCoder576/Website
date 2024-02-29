@@ -124,10 +124,6 @@ function darkmodechange () {
         }
     }
 
-    if (homemode === true) {
-        DarkModeHomeButtons.style.display = 'inline-block'
-        LightModeHomeButtons.style.display = 'none'
-    }
 }
 
 function lightmodechange () {
@@ -212,10 +208,6 @@ function lightmodechange () {
         }
     }
 
-    if (homemode === true) {
-        DarkModeHomeButtons.style.display = 'none'
-        LightModeHomeButtons.style.display = 'inline-block'
-    }
 }
 
 
@@ -344,10 +336,6 @@ function alllegsoff() {
     stoolfivelegDARK.style.display= 'none';
     legcount = 0;
 }
-
-
-
-
 
 
 
