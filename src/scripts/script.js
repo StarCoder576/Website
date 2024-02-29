@@ -285,7 +285,7 @@ function stoolarea () {
     backbutton.style.display = 'inline-block'
     display.style.display = 'inline-block'
     stoolmode = true
-    homemod = false; 
+    homemode = false; 
     stooltitle.style.display = 'inline-block'
     legcount = 3
 
