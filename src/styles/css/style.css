@@ -25,11 +25,32 @@ body {
   top: 7.5vh;
   right: 5vw;
   z-index: 3;
+
 }
 
 .mode-button img {
   height: 100%;
   width: auto;
+
+    display: inline-block;  
+  cursor: pointer;
+  color: #fff; 
+  text-decoration: none; 
+  border: 5px solid #444;
+  border-radius: 0.4rem; 
+  font-size: 2vw; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #444;
+  &:hover {
+    background-color: #555; 
+    color: #ddd;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
 }
 
 .back-button {
@@ -81,14 +102,11 @@ p.home-heading {
   height: 100%;
   margin-right: 10vw;
 
-  display: inline-block; 
-  position: relative; 
-  margin: 0 0.5rem; 
-  padding: 0.4rem 1rem; 
+  display: inline-block;  
   cursor: pointer;
   color: #fff; 
   text-decoration: none; 
-  border: 1px solid #fff; 
+  border: 5px solid #444;
   border-radius: 0.4rem; 
   font-size: 2vw; 
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
@@ -154,7 +172,7 @@ p.home-heading {
   display: inline-block;
   position: fixed;
 
-  width: 60vh;
+  width: 35vw;
   height: 10vh;
   top: 55vh;
   left: 10vw;
@@ -163,16 +181,35 @@ p.home-heading {
 .leg-selector img {
   width: auto; 
   height: 100%;
-  position: absolute; 
   top: 0; 
-  margin-right: '5px'
+  margin-right: 1vw;
+
+  display: inline-block;  
+  cursor: pointer;
+  color: #fff; 
+  text-decoration: none; 
+  border: 5px solid #444; 
+  border-radius: 0.4rem; 
+  font-size: 2vw; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #444;
+  &:hover {
+    background-color: #555; 
+    color: #ddd;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
 }
 
 .wood-selector {
   display: inline-block;
   position: fixed;
 
-  width: 60vh;
+  width: 35vw;
   height: 10vh;
   top: 70vh;
   left: 10vw;
@@ -180,10 +217,28 @@ p.home-heading {
 
 .wood-selector img {
   width: auto; 
-  height: 100%;
-  position: absolute; 
-  top: 0; 
-  margin-right: '5px'
+  height: 100%;  
+  margin-right: 1vw;
+
+  display: inline-block;  
+  cursor: pointer;
+  color: #fff; 
+  text-decoration: none; 
+  border: 5px solid #444;
+  border-radius: 0.4rem; 
+  font-size: 2vw; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  background-color: #444;
+  &:hover {
+    background-color: #555; 
+    color: #ddd;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
 }
 
 
