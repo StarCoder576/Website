@@ -234,8 +234,7 @@ function chairarea() {
     legcount = 4
 
     homeheading.style.display = 'none'
-    LightModeHomeButtons.style.display = 'none'
-    DarkModeHomeButtons.style.display = 'none'
+    homebuttons.style.display = 'none'
 }
 
 function tablearea() {
@@ -258,8 +257,7 @@ function tablearea() {
     legcount = 4
 
     homeheading.style.display = 'none'
-    LightModeHomeButtons.style.display = 'none'
-    DarkModeHomeButtons.style.display = 'none'
+    homebuttons.style.display = 'none'
 }
 
 function stoolarea () {
@@ -282,8 +280,7 @@ function stoolarea () {
     legcount = 3
 
     homeheading.style.display = 'none'
-    LightModeHomeButtons.style.display = 'none'
-    DarkModeHomeButtons.style.display = 'none'
+    homebuttons.style.display = 'none'
 }
 
 
