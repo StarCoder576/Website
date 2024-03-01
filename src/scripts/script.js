@@ -5,6 +5,9 @@ let tablemode = false;
 let stoolmode = false;
 let darkmode = false;
 let legcount = 4;
+let woodmode = 'oak'
+let cartcounter = 0
+let furnituremode = ''
 
 //Back Button #############################################################################################################
 
@@ -23,12 +26,12 @@ function back() {
     chairmode = false;
     tablemode = false;
     stoolmode = false;
-    display.style.display = 'none'
-    chairtitle.style.display = 'none'
-    tabletitle.style.display = 'none'
-    stooltitle.style.display = 'none'
-    homeheading.style.display = 'inline-block'
-    homebuttons.style.display = 'inline-block'  
+    display.style.display = 'none';
+    chairtitle.style.display = 'none';
+    tabletitle.style.display = 'none';
+    stooltitle.style.display = 'none';
+    homeheading.style.display = 'inline-block';
+    homebuttons.style.display = 'inline-block';
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
@@ -39,7 +42,7 @@ function darkmodechange () {
     darkmode = true;
     lightmodebutton.style.display = 'inline-block'
     darkmodebutton.style.display = 'none'
-    document.body.style.backgroundColor = "#696969;"
+    document.body.style.backgroundColor = "#696969"
     colorblock.style.backgroundColor = '#000000'
    
 
@@ -227,6 +230,7 @@ function chairarea() {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    furnituremode = 'chair'
 }
 
 function tablearea() {
@@ -250,6 +254,7 @@ function tablearea() {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    furnituremode = 'table'
 }
 
 function stoolarea () {
@@ -273,6 +278,7 @@ function stoolarea () {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    furnituremode = 'stool'
 }
 
 
@@ -343,26 +349,31 @@ function allwoodoff() {
 function oakS() {
     allwoodoff();
     oak.style.display = 'inline-block';
+    woodmode = 'oak'
 }
 
 function beechS() {
     allwoodoff();
     beech.style.display = 'inline-block';
+    woodmode = 'beech'
 }
 
 function acaciaS() {
     allwoodoff()
     acacia.style.display = 'inline-block'
+    woodmode = 'acacia'
 }
 
 function mahoganyS() {
     allwoodoff()
     mahogany.style.display = 'inline-block'
+    woodmode = 'mahogany'
 }
 
 function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
+    woodmode = 'teek'
 }
 
 
@@ -554,3 +565,121 @@ function stoolleg5DARK () {
 
 
 
+// Cart Code ############################################################################################################
+
+function cartarea () {
+    allwoodoff();
+    alllegsoff();
+    woodselector.style.display = 'none';
+    chairselector.style.display = 'none';
+    chairselectorDARK.style.display = 'none';
+    tableselector.style.display = 'none';
+    tableselectorDARK.style.display = 'none';
+    stoolselectorDARK.style.display = 'none';
+    stoolselector.style.display = 'none';
+    backbutton.style.display = 'none';
+    homemode = true;
+    chairmode = false;
+    tablemode = false;
+    stoolmode = false;
+    display.style.display = 'none';
+    chairtitle.style.display = 'none';
+    tabletitle.style.display = 'none';
+    stooltitle.style.display = 'none';
+    homeheading.style.display = 'none';
+    homebuttons.style.display = 'none';
+}
+
+function calculatePrice () {
+    let itemPrice = 0
+
+    if (furnituremode === 'chair') {
+        itemPrice += 150
+    }
+
+    if (furnituremode === 'table') {
+        itemPrice += 250
+    }
+
+    if (furnituremode === 'stool') {
+        itemPrice += 350
+    }
+
+
+    if (woodmode === 'oak') {
+        itemPrice += 425
+    }
+
+    if (woomode === 'beech') {
+        itemPrice += 375
+    }
+
+    if (woodmode === 'acacia') {
+        itemPrice += 400
+    }
+
+    if (woodmode === 'mahogany') {
+        itemprice += 475
+    }
+
+    if (woodmode === 'teek') {
+        itemPrice += 350
+    }
+
+    if (legcount === 1) {
+        itemPrice += 50
+    }
+
+    if (legcount === 2) {
+        itemPrice += 100
+    }
+
+    if (legcount === 3) {
+        itemPrice += 150
+    }
+
+    if (legcount ===41) {
+        itemPrice += 200
+    }
+
+    if (legcount === 5) {
+        itemPrice += 250
+    }
+}
+  
+function addtocart() {
+    let cartValue = {}
+
+    // Element Creation and Labelling
+    const elementId = `dynamic-element-${cartcounter}`;
+    const deleteFunctionName = `deleteElement${cartcounter}`;
+
+    const dynamicElement = document.createElement('div');
+    dynamicElement.id = elementId;
+    dynamicElement.className = 'dynamic-element';
+    dynamicElement.textContent = `${woodmode} ${legcount}-legged ${furnituremode}   Cost: ${itemPrice}`;
+        
+    const deleteButton = document.createElement('span');
+    deleteButton.className = 'delete-button';
+    deleteButton.textContent = '❌';
+    deleteButton.addEventListener('click', () => window[deleteFunctionName]());
+
+    const priceID = `item-${cartcounter}`;
+    cartValue[priceID] = itemPrice;
+
+
+    dynamicElement.appendChild(deleteButton);
+    document.getElementById('cartitems').appendChild(dynamicElement);
+
+    window[deleteFunctionName] = function() {
+        const elementToRemove = document.getElementById(elementId);
+        if (elementToRemove) {
+            elementToRemove.remove();
+            delete window[deleteFunctionName];
+            delete cartValue[priceID];
+        }
+    };
+
+    cartcounter++;
+    
+}

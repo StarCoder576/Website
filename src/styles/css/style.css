@@ -60,6 +60,8 @@ body {
   height: 5vh;
   top: 8.5vh;
   left: 6vw;
+
+  cursor: pointer; 
 }
 
 .back-button img {
@@ -242,8 +244,38 @@ p.home-heading {
 }
 
 
+.cart-button {
+  left: 12vw;
+  top: 7.5vh;
+
+  width: 5vw;
+  height: 5vh;
+}
+
+.cart-button img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-area {
+  left: 5vw; 
+  width: 10vw;
+  top:7.5vh;
+  height: 85vh;
 
 
+}
 
+.dynamic-element {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: red;
+}
 
 
