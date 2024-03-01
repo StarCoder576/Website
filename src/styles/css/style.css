@@ -245,6 +245,8 @@ p.home-heading {
 
 
 .cart-button {
+  display: inline-block;
+  position: fixed;
   left: 12vw;
   top: 7.5vh;
 
@@ -257,7 +259,9 @@ p.home-heading {
   height: auto;
 }
 
-.checkout {
+.cartitems {
+  display: inline-block;
+  position: fixed;
   left: 5vw; 
   width: 10vw;
   top:7.5vh;
