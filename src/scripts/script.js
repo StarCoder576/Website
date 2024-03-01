@@ -579,6 +579,7 @@ function cartarea () {
     stoolselectorDARK.style.display = 'none';
     stoolselector.style.display = 'none';
     backbutton.style.left = '16vw';
+    backbutton.style.display = 'inline-block';
     homemode = true;
     chairmode = false;
     tablemode = false;
