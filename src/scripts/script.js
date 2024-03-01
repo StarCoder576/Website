@@ -32,6 +32,7 @@ function back() {
     stooltitle.style.display = 'none';
     homeheading.style.display = 'inline-block';
     homebuttons.style.display = 'inline-block';
+    checkout.style.display = 'none';
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
@@ -577,7 +578,7 @@ function cartarea () {
     tableselectorDARK.style.display = 'none';
     stoolselectorDARK.style.display = 'none';
     stoolselector.style.display = 'none';
-    backbutton.style.display = 'none';
+    backbutton.style.left = '16vw';
     homemode = true;
     chairmode = false;
     tablemode = false;
@@ -588,6 +589,7 @@ function cartarea () {
     stooltitle.style.display = 'none';
     homeheading.style.display = 'none';
     homebuttons.style.display = 'none';
+    checkout.style.display = 'inline-block';
 }
 
 function calculatePrice () {
