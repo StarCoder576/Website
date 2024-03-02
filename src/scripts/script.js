@@ -33,6 +33,7 @@ function back() {
     stooltitle.style.display = 'none';
     homeheading.style.display = 'inline-block';
     homebuttons.style.display = 'inline-block';
+    heading.style.display = 'none';
     checkout.style.display = 'none';
 }
 
@@ -597,7 +598,6 @@ function cartarea () {
     stooltitle.style.display = 'none';
     homeheading.style.display = 'none';
     homebuttons.style.display = 'none';
-    homemode.style.display = 'none'
     cartbutton.style.display = 'none'
     checkout.style.display = 'inline-block';
 }
