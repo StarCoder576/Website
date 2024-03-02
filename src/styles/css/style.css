@@ -319,7 +319,7 @@ p.home-heading {
 
   text-decoration: none; 
   border: 5px solid #444;
-  font-size: qvw; 
+  font-size: 1vw; 
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
   &:hover {
