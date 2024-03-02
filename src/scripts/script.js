@@ -10,6 +10,7 @@ let cartcounter = 0
 let furnituremode = ''
 let cartValue = {}
 let totalcost = 0
+let itemPrice = 0
 
 //Back Button #############################################################################################################
 
@@ -651,7 +652,7 @@ function cartarea () {
 }
 
 function calculatePrice () {
-    let itemPrice = 0
+    itemPrice = 0
 
     if (furnituremode === 'chair') {
         itemPrice += 150
