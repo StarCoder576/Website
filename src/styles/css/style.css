@@ -270,25 +270,20 @@ p.home-heading {
   background-color: white;
 }
 
-.cartitems {
+
+.dynamic-element {
   display: inline-block;
   position: fixed;
+  
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
 
   width: 13vw;
   height: 5vw;
   top: 7.5vh;
   left: 6vw;
-  margin: 10px 0px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid black; 
-}
-
-.dynamic-element {
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
 }
 
 .delete-button {

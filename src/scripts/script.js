@@ -735,6 +735,7 @@ function addtocart() {
     const dynamicElement = document.createElement('div');
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
+    
     dynamicElement.textContent = `${woodmode} ${legcount}-legged ${furnituremode}   Cost: ${itemPrice}`;
         
     const deleteButton = document.createElement('span');
