@@ -8,6 +8,7 @@ let legcount = 4;
 let woodmode = 'oak'
 let cartcounter = 0
 let furnituremode = ''
+let cartValue = {}
 
 //Back Button #############################################################################################################
 
@@ -223,6 +224,7 @@ function chairarea() {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
+    backbutton.style.left = '6vw'
     chairmode = true;
     homemode = false;
     display.style.display = 'inline-block'
@@ -248,6 +250,7 @@ function tablearea() {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
+    backbutton.style.left = '6vw'
     tablemode = true;
     homemode = false;
     display.style.display = 'inline-block'
@@ -273,6 +276,7 @@ function stoolarea () {
     oak.style.display = 'inline-block';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
+    backbutton.style.left = '6vw'
     display.style.display = 'inline-block'
     stoolmode = true
     homemode = false; 
@@ -656,7 +660,6 @@ function calculatePrice () {
 }
   
 function addtocart() {
-    let cartValue = {}
 
     // Element Creation and Labelling
     const elementId = `dynamic-element-${cartcounter}`;
