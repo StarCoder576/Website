@@ -126,15 +126,6 @@ p.home-heading {
 }
 
 
-.heading {
-  display: inline-block;
-  position: fixed;
-  width: 30vw;
-  height: 20vh;
-  top: 9vh;
-  left: 10vw;
-}
-
 .title {
   margin-left: 25px;
   color: #ffffff;

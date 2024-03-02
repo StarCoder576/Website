@@ -580,7 +580,7 @@ function cartarea () {
     stoolselector.style.display = 'none';
     backbutton.style.left = '16vw';
     backbutton.style.display = 'inline-block';
-    homemode = true;
+    homemode = false;
     chairmode = false;
     tablemode = false;
     stoolmode = false;
@@ -590,6 +590,7 @@ function cartarea () {
     stooltitle.style.display = 'none';
     homeheading.style.display = 'none';
     homebuttons.style.display = 'none';
+    homemode.style.display = 'none'
     checkout.style.display = 'inline-block';
 }
 
