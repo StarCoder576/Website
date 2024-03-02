@@ -670,7 +670,7 @@ function calculatePrice () {
         itemPrice += 425
     }
 
-    if (woomode === 'beech') {
+    if (woodmode === 'beech') {
         itemPrice += 375
     }
 
@@ -713,8 +713,14 @@ function updatePrice () {
     document.getElementById("addtocartbutton").textContent = `Cost: ${itemPrice}. Add to Cart?`;
 }
 
-function updateTotal () {
 
+function additem() {
+    updateTotal()
+    addtocart()
+}
+
+function updateTotal () {
+    totalcost += itemPrice
 }
 
 
