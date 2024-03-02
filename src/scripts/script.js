@@ -680,7 +680,7 @@ function calculatePrice () {
     }
 
     if (woodmode === 'mahogany') {
-        itemprice += 475
+        itemPrice += 475
     }
 
     if (woodmode === 'teek') {
@@ -699,7 +699,7 @@ function calculatePrice () {
         itemPrice += 150
     }
 
-    if (legcount ===41) {
+    if (legcount === 4) {
         itemPrice += 200
     }
 
@@ -711,7 +711,7 @@ function calculatePrice () {
 
 function updatePrice () {
     calculatePrice()
-    document.getElementById("addtocartbutton").textContent = `Cost: ${itemPrice}. Add to Cart?`;
+    document.getElementById("addtocartbutton").textContent = `Cost: ${itemPrice}$. Add to Cart?`;
 }
 
 

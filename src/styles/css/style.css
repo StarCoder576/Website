@@ -131,7 +131,7 @@ p.home-heading {
   position: fixed;
   width: 30vw;
   height: 20vh;
-  top: 12vh;
+  top: 15vh;
   left: 10vw;
 }
 
@@ -300,13 +300,15 @@ p.home-heading {
   display: none;
   position: fixed;
 
-  width: 13vw;
-  height: 10px;
-  top: 75vh;
-  left: 6vw;
+  cursor: pointer;
+
+  width: 15vw;
+  height: 20px;
+  top: 80vh;
+  left: 30vw;
   margin: 10px 0px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
   background-color: orange;
   border: 1px solid black; 
 }
