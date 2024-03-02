@@ -259,7 +259,7 @@ p.home-heading {
   height: auto;
 }
 
-.cartitems {
+.itemarea {
   display: inline-block;
   position: fixed;
   left: 5vw; 
@@ -267,7 +267,7 @@ p.home-heading {
   top:7.5vh;
   height: 85vh;
 
-
+  background-color: white;
 }
 
 .dynamic-element {
@@ -281,6 +281,7 @@ p.home-heading {
   cursor: pointer;
   color: red;
 }
+
 
 
 
