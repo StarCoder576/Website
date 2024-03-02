@@ -269,10 +269,10 @@ p.home-heading {
   border: 1px solid black;
   border-radius: 5px;
   width: 17vw;
-  left: 1vw;
+  left: .5vw;
   height: auto;
+  user-select: none;
   background-color: white;
-  margin-bottom: 10px; /* Add margin bottom to create space between elements */
 }
 
 #cartitems {
@@ -289,6 +289,7 @@ p.home-heading {
 .delete-button {
   cursor: pointer;
   color: red;
+  user-select: none;
 }
 
 .add-to-cart-button {
@@ -296,6 +297,7 @@ p.home-heading {
   position: fixed;
 
   cursor: pointer;
+  user-select: none;
 
   width: 15vw;
   height: 20px;
