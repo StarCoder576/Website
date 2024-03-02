@@ -231,6 +231,7 @@ function chairarea() {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    heading.style.display = 'inline-block'
     furnituremode = 'chair'
 }
 
@@ -255,6 +256,7 @@ function tablearea() {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    heading.style.display = 'inline-block'
     furnituremode = 'table'
 }
 
@@ -279,6 +281,7 @@ function stoolarea () {
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
+    heading.style.display = 'inline-block'
     furnituremode = 'stool'
 }
 

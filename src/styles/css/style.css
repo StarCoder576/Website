@@ -126,6 +126,15 @@ p.home-heading {
 }
 
 
+.heading {
+  display: none;
+  position: fixed;
+  width: 30vw;
+  height: 20vh;
+  top: 9vh;
+  left: 10vw;
+}
+
 .title {
   margin-left: 25px;
   color: #ffffff;
@@ -250,7 +259,7 @@ p.home-heading {
   height: auto;
 }
 
-.itemarea {
+.item-area {
   display: inline-block;
   position: fixed;
   left: 5vw; 
