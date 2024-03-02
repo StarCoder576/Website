@@ -176,7 +176,7 @@ p.home-heading {
 
   width: 35vw;
   height: 10vh;
-  top: 55vh;
+  top: 45vh;
   left: 10vw;
 }
 
@@ -213,7 +213,7 @@ p.home-heading {
 
   width: 35vw;
   height: 10vh;
-  top: 70vh;
+  top: 65vh;
   left: 10vw;
 }
 
@@ -270,6 +270,20 @@ p.home-heading {
   background-color: white;
 }
 
+.cartitems {
+  display: inline-block;
+  position: fixed;
+
+  width: 13vw;
+  height: 5vw;
+  top: 7.5vh;
+  left: 6vw;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black; 
+}
+
 .dynamic-element {
   margin: 10px;
   padding: 10px;
@@ -282,6 +296,19 @@ p.home-heading {
   color: red;
 }
 
+.add-to-cart-button {
+  display: none;
+  position: fixed;
 
+  width: 13vw;
+  height: 5vw;
+  top: 75vh;
+  left: 6vw;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(201, 138, 22);
+  border: 1px solid black; 
+}
 
 

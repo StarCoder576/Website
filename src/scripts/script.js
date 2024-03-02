@@ -9,6 +9,7 @@ let woodmode = 'oak'
 let cartcounter = 0
 let furnituremode = ''
 let cartValue = {}
+let totalcost = 0
 
 //Back Button #############################################################################################################
 
@@ -35,6 +36,8 @@ function back() {
     homebuttons.style.display = 'inline-block';
     heading.style.display = 'none';
     checkout.style.display = 'none';
+    cartbutton.style.display = 'inline-block'
+    addtocartbutton.style.display = 'none'
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
@@ -223,19 +226,22 @@ function chairarea() {
         chairselector.style.display = 'inline-block'
     }
     oak.style.display = 'inline-block';
+    woodmode = 'oak';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
     backbutton.style.left = '6vw'
-    chairmode = true;
-    homemode = false;
+    chairmode = true
+    homemode = false
     display.style.display = 'inline-block'
     chairtitle.style.display = 'inline-block'
     legcount = 4
+    addtocartbutton.style.display = 'inline-block'
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'chair'
+    updatePrice()
 }
 
 function tablearea() {
@@ -256,12 +262,15 @@ function tablearea() {
     homemode = false;
     display.style.display = 'inline-block'
     tabletitle.style.display = 'inline-block'
+    woodmode = 'oak'
     legcount = 4
+    addtocartbutton.style.display = 'inline-block'
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'table'
+    updatePrice()
 }
 
 function stoolarea () {
@@ -282,12 +291,15 @@ function stoolarea () {
     stoolmode = true
     homemode = false; 
     stooltitle.style.display = 'inline-block'
+    woodmode = 'oak'
     legcount = 3
+    addtocartbutton.style.display = 'inline-block'
 
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'stool'
+    updatePrice()
 }
 
 
@@ -359,30 +371,35 @@ function oakS() {
     allwoodoff();
     oak.style.display = 'inline-block';
     woodmode = 'oak'
+    updatePrice()
 }
 
 function beechS() {
     allwoodoff();
     beech.style.display = 'inline-block';
     woodmode = 'beech'
+    updatePrice()
 }
 
 function acaciaS() {
     allwoodoff()
     acacia.style.display = 'inline-block'
     woodmode = 'acacia'
+    updatePrice()
 }
 
 function mahoganyS() {
     allwoodoff()
     mahogany.style.display = 'inline-block'
     woodmode = 'mahogany'
+    updatePrice()
 }
 
 function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
     woodmode = 'teek'
+    updatePrice()
 }
 
 
@@ -392,60 +409,70 @@ function leg1() {
     alllegsoff()
     oneleg.style.display= 'inline-block';
     legcount = 1;
+    updatePrice()
 }
 
 function leg2() {
     alllegsoff()
     twoleg.style.display= 'inline-block'
     legcount = 2;
+    updatePrice()
 }
 
 function leg3() {
     alllegsoff()
     threeleg.style.display= 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function leg4() {
     alllegsoff()
     fourleg.style.display= 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function leg5() {
     alllegsoff()
     fiveleg.style.display= 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 function leg1DARK() {
     alllegsoff()
     onelegDARK.style.display = 'inline-block'
     legcount = 1
+    updatePrice()
 }
 
 function leg2DARK() {
     alllegsoff()
     twolegDARK.style.display = 'inline-block'
     legcount = 2
+    updatePrice()
 }
 
 function leg3DARK() {
     alllegsoff()
     threelegDARK.style.display = 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function leg4DARK() {
     alllegsoff()
     fourlegDARK.style.display = 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function leg5DARK() {
     alllegsoff()
     fivelegDARK.style.display = 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 //TABLE
@@ -453,60 +480,70 @@ function tableleg1() {
     alllegsoff()
     tableoneleg.style.display = 'inline-block'
     legcount = 1
+    updatePrice()
 }
 
 function tableleg2() {
     alllegsoff()
     tabletwoleg.style.display = 'inline-block'
     legcount = 2
+    updatePrice()
 }
 
 function tableleg3() {
     alllegsoff()
     tablethreeleg.style.display = 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function tableleg4() {
     alllegsoff()
     tablefourleg.style.display = 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function tableleg5() {
     alllegsoff()
     tablefiveleg.style.display = 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 function tableleg1DARK() {
     alllegsoff()
     tableonelegDARK.style.display = 'inline-block'
     legcount = 1
+    updatePrice()
 }
 
 function tableleg2DARK() {
     alllegsoff()
     tabletwolegDARK.style.display = 'inline-block'
     legcount = 2
+    updatePrice()
 }
 
 function tableleg3DARK() {
     alllegsoff()
     tablethreelegDARK.style.display = 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function tableleg4DARK() {
     alllegsoff()
     tablefourlegDARK.style.display = 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function tableleg5DARK() {
     alllegsoff()
     tablefivelegDARK.style.display = 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 //Stool
@@ -515,60 +552,70 @@ function stoolleg1 () {
     alllegsoff()
     stooloneleg.style.display = 'inline-block'
     legcount = 1
+    updatePrice()
 }
 
 function stoolleg2 () {
     alllegsoff()
     stooltwoleg.style.display = 'inline-block'
     legcount = 2
+    updatePrice()
 }
 
 function stoolleg3 () {
     alllegsoff()
     stoolthreeleg.style.display = 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function stoolleg4 () {
     alllegsoff()
     stoolfourleg.style.display = 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function stoolleg5 () {
     alllegsoff()
     stoolfiveleg.style.display = 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 function stoolleg1DARK () {
     alllegsoff()
     stoolonelegDARK.style.display = 'inline-block'
     legcount = 1
+    updatePrice()
 }
 
 function stoolleg2DARK () {
     alllegsoff()
     stooltwolegDARK.style.display = 'inline-block'
     legcount = 2
+    updatePrice()
 }
 
 function stoolleg3DARK () {
     alllegsoff()
     stoolthreelegDARK.style.display = 'inline-block'
     legcount = 3
+    updatePrice()
 }
 
 function stoolleg4DARK () {
     alllegsoff()
     stoolfourlegDARK.style.display = 'inline-block'
     legcount = 4
+    updatePrice()
 }
 
 function stoolleg5DARK () {
     alllegsoff()
     stoolfivelegDARK.style.display = 'inline-block'
     legcount = 5
+    updatePrice()
 }
 
 
@@ -600,6 +647,7 @@ function cartarea () {
     homebuttons.style.display = 'none';
     cartbutton.style.display = 'none'
     checkout.style.display = 'inline-block';
+    addtocartbutton.style.display = 'none'
 }
 
 function calculatePrice () {
@@ -658,7 +706,19 @@ function calculatePrice () {
         itemPrice += 250
     }
 }
-  
+
+
+function updatePrice () {
+    calculatePrice()
+    document.getElementById("addtocartbutton").textContent = `Cost: ${itemPrice}. Add to Cart?`;
+}
+
+function updateTotal () {
+
+}
+
+
+
 function addtocart() {
 
     // Element Creation and Labelling
@@ -685,6 +745,7 @@ function addtocart() {
     window[deleteFunctionName] = function() {
         const elementToRemove = document.getElementById(elementId);
         if (elementToRemove) {
+            totalcost -= cartValue[priceID]
             elementToRemove.remove();
             delete window[deleteFunctionName];
             delete cartValue[priceID];
