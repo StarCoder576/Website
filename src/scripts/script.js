@@ -634,7 +634,7 @@ function cartarea () {
     tableselectorDARK.style.display = 'none';
     stoolselectorDARK.style.display = 'none';
     stoolselector.style.display = 'none';
-    backbutton.style.left = '21vw';
+    backbutton.style.left = '26vw';
     backbutton.style.display = 'inline-block';
     homemode = false;
     chairmode = false;
@@ -735,7 +735,7 @@ function addtocart() {
     const dynamicElement = document.createElement('div');
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
-    
+
     dynamicElement.textContent = `${woodmode} ${legcount}-legged ${furnituremode}   Cost: ${itemPrice}`;
         
     const deleteButton = document.createElement('span');

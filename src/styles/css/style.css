@@ -257,34 +257,34 @@ p.home-heading {
 .cart-button img {
   width: 100%;
   height: auto;
-}
-
-.item-area {
-  display: inline-block;
-  position: fixed;
-  left: 5vw; 
-  width: 15vw;
-  top:7.5vh;
-  height: 85vh;
-
-  background-color: white;
+  cursor: pointer;
 }
 
 
 .dynamic-element {
   display: inline-block;
-  position: fixed;
-  
-  margin: 10px 0px;
+  position: relative;
+  margin-top: 20px;
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
-
-  width: 13vw;
-  height: 5vw;
-  top: 7.5vh;
-  left: 6vw;
+  width: 17vw;
+  left: 1vw;
+  height: auto;
+  background-color: white;
+  margin-bottom: 10px; /* Add margin bottom to create space between elements */
 }
+
+#cartitems {
+  position: fixed;
+  top: 7.5vh;
+  left: 5vw;
+  width: 20vw;
+  height: 85vh;
+  background-color: orange;
+  overflow-y: auto; /* Add scroll if elements exceed the height */
+}
+
 
 .delete-button {
   cursor: pointer;
