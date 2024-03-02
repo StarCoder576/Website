@@ -5,7 +5,7 @@ let tablemode = false;
 let stoolmode = false;
 let darkmode = false;
 let legcount = 4;
-let woodmode = 'oak'
+let woodmode = 'Oak'
 let cartcounter = 0
 let furnituremode = ''
 let cartValue = {}
@@ -241,7 +241,7 @@ function chairarea() {
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
-    furnituremode = 'chair'
+    furnituremode = 'Chair'
     updatePrice()
 }
 
@@ -270,7 +270,7 @@ function tablearea() {
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
-    furnituremode = 'table'
+    furnituremode = 'Table'
     updatePrice()
 }
 
@@ -299,7 +299,7 @@ function stoolarea () {
     homeheading.style.display = 'none'
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
-    furnituremode = 'stool'
+    furnituremode = 'Stool'
     updatePrice()
 }
 
@@ -371,35 +371,35 @@ function allwoodoff() {
 function oakS() {
     allwoodoff();
     oak.style.display = 'inline-block';
-    woodmode = 'oak'
+    woodmode = 'Oak'
     updatePrice()
 }
 
 function beechS() {
     allwoodoff();
     beech.style.display = 'inline-block';
-    woodmode = 'beech'
+    woodmode = 'Beech'
     updatePrice()
 }
 
 function acaciaS() {
     allwoodoff()
     acacia.style.display = 'inline-block'
-    woodmode = 'acacia'
+    woodmode = 'Acacia'
     updatePrice()
 }
 
 function mahoganyS() {
     allwoodoff()
     mahogany.style.display = 'inline-block'
-    woodmode = 'mahogany'
+    woodmode = 'Mahogany'
     updatePrice()
 }
 
 function teekS() {
     allwoodoff()
     teek.style.display = 'inline-block'
-    woodmode = 'teek'
+    woodmode = 'Teek'
     updatePrice()
 }
 
@@ -667,23 +667,23 @@ function calculatePrice () {
     }
 
 
-    if (woodmode === 'oak') {
+    if (woodmode === 'Oak') {
         itemPrice += 425
     }
 
-    if (woodmode === 'beech') {
+    if (woodmode === 'Beech') {
         itemPrice += 375
     }
 
-    if (woodmode === 'acacia') {
+    if (woodmode === 'Acacia') {
         itemPrice += 400
     }
 
-    if (woodmode === 'mahogany') {
+    if (woodmode === 'Mahogany') {
         itemPrice += 475
     }
 
-    if (woodmode === 'teek') {
+    if (woodmode === 'Teek') {
         itemPrice += 350
     }
 
@@ -736,7 +736,7 @@ function addtocart() {
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
 
-    dynamicElement.textContent = `${woodmode} ${legcount}-legged ${furnituremode}   Cost: ${itemPrice}`;
+    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: ${itemPrice}`;
         
     const deleteButton = document.createElement('span');
     deleteButton.className = 'delete-button';
