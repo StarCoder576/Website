@@ -275,12 +275,21 @@ p.home-heading {
   background-color: white;
 }
 
+.cartTitle {
+  position: fixed;
+  top: 7.5vh;
+  left: 5vw;
+  width: 20vw;
+  height: 5vh;
+  background-color: orange;
+}
+
 #cartitems {
   position: fixed;
   top: 7.5vh;
   left: 5vw;
   width: 20vw;
-  height: 85vh;
+  height: 80vh;
   background-color: orange;
   overflow-y: auto; /* Add scroll if elements exceed the height */
 }
@@ -299,8 +308,8 @@ p.home-heading {
   cursor: pointer;
   user-select: none;
 
-  width: 15vw;
-  height: 20px;
+  width: auto;
+  height: auto;
   top: 80vh;
   left: 30vw;
   margin: 10px 0px;
@@ -310,20 +319,33 @@ p.home-heading {
 
   text-decoration: none; 
   border: 5px solid #444;
-  border-radius: 0.4rem; 
-  font-size: 2vw; 
+  font-size: qvw; 
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
-  background-color: #444;
   &:hover {
-    background-color: #555; 
-    color: #ddd;
+    background-color: #ffbb3e; 
+    color: #454545;
     transform: scale(1.1);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   }
   
   &:active
     {transform: scale(0.9);}
+
 }
 
 
+.checkoutHeading {
+  display: inline-block;
+  position: fixed;
+  width: 40vw;
+  height: 20vh;
+  top: 10vh;
+  left: 30vw;
+  text-align: center;
+}
+
+#checkoutTitle {
+  width: auto;
+  height: auto;
+}

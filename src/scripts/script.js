@@ -716,12 +716,12 @@ function updatePrice () {
 
 
 function additem() {
-    updateTotal()
+    totalcost += itemPrice
     addtocart()
 }
 
 function updateTotal () {
-    totalcost += itemPrice
+    document.getElementById("checkoutTitle").textContent = `Current Total: ${totalcost}$.`
 }
 
 
@@ -753,7 +753,8 @@ function addtocart() {
     window[deleteFunctionName] = function() {
         const elementToRemove = document.getElementById(elementId);
         if (elementToRemove) {
-            totalcost -= cartValue[priceID]
+            totalcost -= cartValue[priceID];
+            updateTotal();
             elementToRemove.remove();
             delete window[deleteFunctionName];
             delete cartValue[priceID];
