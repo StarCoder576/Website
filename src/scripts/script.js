@@ -11,6 +11,7 @@ let furnituremode = ''
 let cartValue = {}
 let totalcost = 0
 let itemPrice = 0
+let buycounter = 0
 
 //Back Button #############################################################################################################
 
@@ -767,6 +768,45 @@ function addtocart() {
 
 
 function buy() {
-    alert('Did you really think you could buy stuff on this website?')
+    buycounter++
+    if (buycounter === 1) {
+        alert('Did You Really Think You Could Buy Stuff On This Website?')
+    }
+
+    if (buycounter === 2) {
+        alert('Good Job, You Found a Secret Message')
+    }
+
+    if (buycounter === 3) {
+        alert('You Can Stop Clicking This Now')
+    }
+
+    if (buycounter === 4) {
+        alert('What Do You Expect to Find?')
+    }
+
+    if (buycounter === 5 || buycounter === 6 || buycounter === 7) {
+        alert('I Will Just Make This Repeat')
+    }
+
+    if (buycounter === 8) {
+        alert('Good Job, you Wasted Enough to Get New Messages')
+    }
+
+    if (buycounter === 9) {
+        alert('Stop.')
+    }
+
+    if (buycounter === 10) {
+        alert('STOP')
+    }
+
+    if (buycounter >= 11 && buycounter <= 49) {
+        alert('GO TOUCH GRASS')
+    }
+
+    if (buycounter === 50) {
+        alert('Get Help')
+    }
 }
 
