@@ -342,7 +342,6 @@ p.home-heading {
 }
 
 .buy-button {
-  display: none;
   position: fixed;
 
   cursor: pointer;
@@ -350,7 +349,7 @@ p.home-heading {
 
   width: auto;
   height: auto;
-  top: 80vh;
+  top: 75vh;
   left: 80vw;
   margin: 10px 0px;
   padding: 10px;
@@ -359,7 +358,7 @@ p.home-heading {
 
   text-decoration: none; 
   border: 5px solid #444;
-  font-size: 1vw; 
+  font-size: 2vw; 
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
   &:hover {
