@@ -333,13 +333,12 @@ p.home-heading {
   width: 40vw;
   height: 20vh;
   top: 10vh;
-  left: 30vw;
+  left: 37.5vw;
   text-align: center;
 }
 
 #checkoutTitle {
-  width: auto;
-  height: auto;
+  font-size: 50px;
 }
 
 .buy-button {
@@ -373,7 +372,6 @@ p.home-heading {
   &:active
     {transform: scale(0.9);}
 }
-
 
 
 
