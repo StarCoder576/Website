@@ -342,3 +342,35 @@ p.home-heading {
   height: auto;
 }
 
+.buy-button {
+  display: none;
+  position: fixed;
+
+  cursor: pointer;
+  user-select: none;
+
+  width: auto;
+  height: auto;
+  top: 80vh;
+  left: 80vw;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: orange;
+
+  text-decoration: none; 
+  border: 5px solid #444;
+  font-size: 1vw; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  &:hover {
+    background-color: #ffbb3e; 
+    color: #454545;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
+}
+
