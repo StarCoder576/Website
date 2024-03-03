@@ -649,6 +649,7 @@ function cartarea () {
     cartbutton.style.display = 'none'
     checkout.style.display = 'inline-block';
     addtocartbutton.style.display = 'none'
+    updateTotal()
 }
 
 function calculatePrice () {
@@ -736,7 +737,7 @@ function addtocart() {
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
 
-    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: ${itemPrice}`;
+    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: ${itemPrice}$`;
         
     const deleteButton = document.createElement('span');
     deleteButton.className = 'delete-button';

@@ -275,21 +275,13 @@ p.home-heading {
   background-color: white;
 }
 
-.cartTitle {
+
+#cartitems {
   position: fixed;
   top: 7.5vh;
   left: 5vw;
   width: 20vw;
-  height: 5vh;
-  background-color: orange;
-}
-
-#cartitems {
-  position: fixed;
-  top: 12.5vh;
-  left: 5vw;
-  width: 20vw;
-  height: 80vh;
+  height: 85vh;
   background-color: orange;
   overflow-y: auto; /* Add scroll if elements exceed the height */
 }
