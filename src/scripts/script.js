@@ -227,7 +227,7 @@ function chairarea() {
         chairselector.style.display = 'inline-block'
     }
     oak.style.display = 'inline-block';
-    woodmode = 'oak';
+    woodmode = 'Oak';
     woodselector.style.display = 'inline-block'
     backbutton.style.display = 'inline-block'
     backbutton.style.left = '6vw'
@@ -263,7 +263,7 @@ function tablearea() {
     homemode = false;
     display.style.display = 'inline-block'
     tabletitle.style.display = 'inline-block'
-    woodmode = 'oak'
+    woodmode = 'Oak'
     legcount = 4
     addtocartbutton.style.display = 'inline-block'
 
@@ -292,7 +292,7 @@ function stoolarea () {
     stoolmode = true
     homemode = false; 
     stooltitle.style.display = 'inline-block'
-    woodmode = 'oak'
+    woodmode = 'Oak'
     legcount = 3
     addtocartbutton.style.display = 'inline-block'
 
