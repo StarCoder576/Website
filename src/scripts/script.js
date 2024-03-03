@@ -767,4 +767,7 @@ function addtocart() {
 }
 
 
+function buy() {
+    alert('Did you really think you could buy stuff on this website?')
+}
 
