@@ -870,5 +870,65 @@ function buy() {
     }
     
 
+    if (buycounter === 26) {
+        alert("Why?")
+    }
+    
+    if (buycounter === 27) {
+        alert("Are You Proud Of Yourself?")
+    }
+    
+    if (buycounter === 28) {
+        alert("Remember When Will Smith Slapped Chris Rock?")
+    }
+    
+    if (buycounter === 29) {
+        alert("You Are Inconsequential")
+    }
+    
+    if (buycounter === 30) {
+        alert("You Matter")
+    }
+    
+    if (buycounter === 31) {
+        alert("You Don't Matter")
+    }
+    
+    if (buycounter === 32) {
+        alert("Why Are Rabbits Associated With Eggs? THEY DON'T LAY EGGS")
+    }
+    
+    if (buycounter === 33) {
+        alert("Eight Billion People, And Yet You Are The Dumbest")
+    }
+    
+    if (buycounter === 34) {
+        alert("Why Did The Chicken Cross The Road? ")
+    }
+    
+    if (buycounter === 35) {
+        alert("Jane's Mom Has Three Daughters. One Is Named May, One Is Named April, What Is The Third One Named?")
+    }
+    
+    if (buycounter === )36 {
+        alert("The Next Solar Eclipse Is April 8th, 2024")
+    }
+    
+    if (buycounter === 37) {
+        alert("I Am Behind You")
+    }
+    
+    if (buycounter === 38) {
+        alert("Check Your Closet")
+    }
+    
+    if (buycounter === 39) {
+        alert("Check Your Toilet")
+    }
+    
+    if (buycounter === 40) {
+        alert("Lock Your Doors Tonight")
+    }
+    
 }
 
