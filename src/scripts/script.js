@@ -52,6 +52,10 @@ function darkmodechange () {
     darkmodebutton.style.display = 'none'
     document.body.style.backgroundColor = "#696969"
     colorblock.style.backgroundColor = '#000000'
+    backbuttoning.style.filter='invert(100%)'
+    heading.style.color = 'white'
+    homeheading.style.color = 'white'
+    checkoutTitle.style.color = 'white'
    
 
     if (chairmode === true) {
@@ -136,6 +140,10 @@ function lightmodechange () {
     darkmodebutton.style.display = 'inline-block'
     document.body.style.backgroundColor = "#FFD59A";
     colorblock.style.backgroundColor = '#18ed78'
+    backbuttonimg.style.filter='invert(0%)'
+    heading.style.color = 'black'
+    homeheading.style.color = 'black'
+    checkoutTitle.style.color = 'black'
 
 
     if (chairmode === true) {
@@ -712,7 +720,7 @@ function calculatePrice () {
 
 function updatePrice () {
     calculatePrice()
-    document.getElementById("addtocartbutton").textContent = `Cost: ${itemPrice}$. Add to Cart?`;
+    document.getElementById("addtocartbutton").textContent = `Cost: $${itemPrice}. Add to Cart?`;
 }
 
 
@@ -722,7 +730,7 @@ function additem() {
 }
 
 function updateTotal () {
-    document.getElementById("checkoutTitle").textContent = `Current Total: ${totalcost}$.`
+    document.getElementById("checkoutTitle").textContent = `Current Total: $${totalcost}`
 }
 
 
@@ -737,7 +745,7 @@ function addtocart() {
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
 
-    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: ${itemPrice}$`;
+    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: $${itemPrice}`;
         
     const deleteButton = document.createElement('span');
     deleteButton.className = 'delete-button';
