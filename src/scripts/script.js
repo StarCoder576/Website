@@ -910,7 +910,7 @@ function buy() {
         alert("Jane's Mom Has Three Daughters. One Is Named May, One Is Named April, What Is The Third One Named?")
     }
     
-    if (buycounter === )36 {
+    if (buycounter === 36) {
         alert("The Next Solar Eclipse Is April 8th, 2024")
     }
     
