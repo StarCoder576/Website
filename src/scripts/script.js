@@ -52,7 +52,7 @@ function darkmodechange () {
     darkmodebutton.style.display = 'none'
     document.body.style.backgroundColor = "#696969"
     colorblock.style.backgroundColor = '#000000'
-    backbuttoning.style.filter='invert(100%)'
+    backbuttonimg.style.filter='invert(100%)'
     heading.style.color = 'white'
     homeheading.style.color = 'white'
     checkoutTitle.style.color = 'white'
