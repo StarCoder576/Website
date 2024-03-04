@@ -76,6 +76,10 @@ body {
   left: 10vw;
 }
 
+#homeheading {
+  color: black;
+}
+
 .home-heading {
   display: inline-block;
   position: fixed;
@@ -133,6 +137,7 @@ p.home-heading {
   height: 20vh;
   top: 15vh;
   left: 10vw;
+  color: black;
 }
 
 .title {
@@ -140,6 +145,8 @@ p.home-heading {
   text-align: center;
   font-size: 50px;
 }
+
+
 
 .display {
   display: inline-block;
