@@ -776,7 +776,7 @@ function addtocart() {
 
 
 function buy() {
-    buycounter++
+    buycounter = Math.floor(Math.random() * 25) + 1;
     if (buycounter === 1) {
         alert('Did You Really Think You Could Buy Stuff On This Website?')
     }
@@ -793,12 +793,12 @@ function buy() {
         alert('What Do You Expect to Find?')
     }
 
-    if (buycounter === 5 || buycounter === 6 || buycounter === 7) {
-        alert('I Will Just Make This Repeat')
+    if (buycounter === 5) {
+        alert("Don't Try This Again")
     }
 
     if (buycounter === 8) {
-        alert('Good Job, you Wasted Enough to Get New Messages')
+        alert('Good Job, You Wasted More of Your Life')
     }
 
     if (buycounter === 9) {
@@ -806,15 +806,69 @@ function buy() {
     }
 
     if (buycounter === 10) {
-        alert('STOP')
+        alert('Good Job, You Are Now The Proud Owner of Absolutely Nothing!')
     }
 
-    if (buycounter >= 11 && buycounter <= 49) {
+    if (buycounter === 11) {
         alert('GO TOUCH GRASS')
     }
 
-    if (buycounter === 50) {
+    if (buycounter === 12) {
         alert('Get Help')
     }
+
+    if (buycounter === 13) {
+        alert("Congratulations! You Just Wasted A Click!")
+    }
+
+    if (buycounter === 14) {
+        alert("Well That Was Pointless")
+    }
+
+    if (buycounter === 15) {
+        alert("One Small Click For You, One Giant Waste Of Time For Mankind")
+    }
+
+    if (buycounter === 16) {
+        alert("Good Job! You Just Wasted Another Moment of Your Life You'll Never Get Back")
+    }
+    
+    if (buycounter === 17) {
+        alert("You Clicked. Nothing Happened. Good Job. ")
+    }
+    
+    if (buycounter === 18) {
+        alert("No, You Can't Actually Buy Stuff")
+    }
+    
+    if (buycounter === 19) {
+        alert("If Stupidity Was A Superpower, You'd Be Superman")
+    }
+    
+    if (buycounter === 20) {
+        alert("If Usefulness Was Illegal, You'd Be Guilt Free")
+    }
+    
+    if (buycounter === 21) {
+        alert("Maybe One Day You'll Learn, Probably Not Though")
+    }
+    
+    if (buycounter === 22) {
+        alert("Did You Actually Think Literally Anything Would Happen?")
+    }
+    
+    if (buycounter === 23) {
+        alert("Are You Just Pressing This For Fun?")
+    }
+    
+    if (buycounter === 24) {
+        alert("You Seem Like The Kind Of Person To Think The Earth Is Flat")
+    }
+    
+    if (buycounter === 25) {
+        alert("Yes, Touch The BeeHive, This Will Go Well")
+    }
+    
+
 }
 
