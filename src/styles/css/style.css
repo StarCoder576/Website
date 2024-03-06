@@ -17,7 +17,7 @@ body {
 }
 
 .mode-button {
-  display: inline-box;
+  display: inline-block;
   position: relative;
   width: 3vw;
   height: 8vh;
@@ -28,10 +28,10 @@ body {
 }
 
 .mode-button img {
-  height: auto%;
+  height: auto;
   width: 100%;
 
-    display: inline-block;  
+  display: inline-block;  
   cursor: pointer; 
   text-decoration: none; 
   border: 1vh solid #444;
@@ -55,7 +55,7 @@ body {
   display: inline-block;
   position: fixed;
   width: 5vw;
-  height: 5vh;
+  height: 5vw;
   top: 8.5vh;
   left: 6vw;
 
@@ -63,7 +63,8 @@ body {
 }
 
 .back-button img {
-  width: 100%
+  width: 100%;
+  height: auto;
 }
 
 #home {
