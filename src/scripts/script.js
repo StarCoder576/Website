@@ -776,7 +776,8 @@ function addtocart() {
 
 
 function buy() {
-    buycounter = Math.floor(Math.random() * 50) + 1;
+    buycounter = Math.floor(Math.random() * 40) + 1;
+    console.log(buycounter)
     if (buycounter === 1) {
         alert('Did You Really Think You Could Buy Stuff On This Website?')
     }
