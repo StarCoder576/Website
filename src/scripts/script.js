@@ -749,7 +749,7 @@ function addtocart() {
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
 
-    dynamicElement.textContent = `${multiply} ${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: $${itemPrice}`;
+    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}. Count: ${multiply}. Cost: $${itemPrice}`;
         
     const deleteButton = document.createElement('span');
     deleteButton.className = 'delete-button';
@@ -984,6 +984,7 @@ function multiply1x () {
     button1x.style.backgroundColor = 'rgb(124, 80, 0)'
     button10x.style.backgroundColor = 'orange'
     button100x.style.backgroundColor = 'orange'
+    updatePrice()
 }
 
 function multiply10x () {
@@ -991,6 +992,7 @@ function multiply10x () {
     button10x.style.backgroundColor = 'rgb(124, 80, 0)'
     button1x.style.backgroundColor = 'orange'
     button100x.style.backgroundColor = 'orange'
+    updatePrice()
 }
 
 function multiply100x () {
@@ -998,6 +1000,7 @@ function multiply100x () {
     button100x.style.backgroundColor = 'rgb(124, 80, 0)'
     button1x.style.backgroundColor = 'orange'
     button10x.style.backgroundColor = 'orange'
+    updatePrice()
 }
 
 
