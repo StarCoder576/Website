@@ -1003,3 +1003,9 @@ function multiply100x () {
     button1x.style.backgroundColor = 'orange'
     button10x.style.backgroundColor = 'orange'
 }
+
+
+
+
+
+
