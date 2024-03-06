@@ -55,9 +55,7 @@ function darkmodechange () {
     document.body.style.backgroundColor = "#696969"
     colorblock.style.backgroundColor = '#000000'
     backbuttonimg.style.filter='invert(100%)'
-    heading.style.color = 'white'
-    homeheading.style.color = 'white'
-    checkoutTitle.style.color = 'white'
+    colorblock.style.color = 'white'
    
 
     if (chairmode === true) {
@@ -142,10 +140,8 @@ function lightmodechange () {
     darkmodebutton.style.display = 'inline-block'
     document.body.style.backgroundColor = "#FFD59A";
     colorblock.style.backgroundColor = '#18ed78'
+    colorblock.style.color = 'black'
     backbuttonimg.style.filter='invert(0%)'
-    heading.style.color = 'black'
-    homeheading.style.color = 'black'
-    checkoutTitle.style.color = 'black'
 
 
     if (chairmode === true) {

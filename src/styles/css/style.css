@@ -32,8 +32,7 @@ body {
   width: auto;
 
     display: inline-block;  
-  cursor: pointer;
-  color: #fff; 
+  cursor: pointer; 
   text-decoration: none; 
   border: 5px solid #444;
   border-radius: 0.4rem; 
@@ -75,10 +74,6 @@ body {
   left: 10vw;
 }
 
-#homeheading {
-  color: black;
-}
-
 .home-heading {
   display: inline-block;
   position: fixed;
@@ -109,7 +104,6 @@ p.home-heading {
 
   display: inline-block;  
   cursor: pointer;
-  color: #fff; 
   text-decoration: none; 
   border: 5px solid #444;
   border-radius: 0.4rem; 
@@ -136,7 +130,6 @@ p.home-heading {
   height: 20vh;
   top: 15vh;
   left: 10vw;
-  color: black;
 }
 
 .title {
@@ -193,7 +186,6 @@ p.home-heading {
 
   display: inline-block;  
   cursor: pointer;
-  color: #fff; 
   text-decoration: none; 
   border: 5px solid #444; 
   border-radius: 0.4rem; 
@@ -229,7 +221,6 @@ p.home-heading {
 
   display: inline-block;  
   cursor: pointer;
-  color: #fff; 
   text-decoration: none; 
   border: 5px solid #444;
   border-radius: 0.4rem; 
@@ -397,7 +388,6 @@ p.home-heading {
 
   display: inline-block;  
   cursor: pointer;
-  color: #fff; 
   text-decoration: none; 
   border: 5px solid #444;
   border-radius: 0.4rem; 
