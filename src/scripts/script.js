@@ -12,6 +12,7 @@ let cartValue = {}
 let totalcost = 0
 let itemPrice = 0
 let buycounter = 0
+let multiply = 1
 
 //Back Button #############################################################################################################
 
@@ -715,6 +716,8 @@ function calculatePrice () {
     if (legcount === 5) {
         itemPrice += 250
     }
+
+    itemPrice *= multiply
 }
 
 
@@ -745,7 +748,7 @@ function addtocart() {
     dynamicElement.id = elementId;
     dynamicElement.className = 'dynamic-element';
 
-    dynamicElement.textContent = `${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: $${itemPrice}`;
+    dynamicElement.textContent = `${multiply} ${woodmode} ${legcount}-Legged ${furnituremode}.   Cost: $${itemPrice}`;
         
     const deleteButton = document.createElement('span');
     deleteButton.className = 'delete-button';
@@ -973,3 +976,25 @@ function buy() {
 }
 
 
+//Multiplier Buttons
+
+function multiply1x () {
+    multiply = 1
+    button1x.style.backgroundColor = 'rgb(124, 80, 0)'
+    button10x.style.backgroundColor = 'orange'
+    button100x.style.backgroundColor = 'orange'
+}
+
+function multiply10x () {
+    multiply = 10
+    button10x.style.backgroundColor = 'rgb(124, 80, 0)'
+    button1x.style.backgroundColor = 'orange'
+    button100x.style.backgroundColor = 'orange'
+}
+
+function multiply100x () {
+    multiply = 100
+    button100x.style.backgroundColor = 'rgb(124, 80, 0)'
+    button1x.style.backgroundColor = 'orange'
+    button10x.style.backgroundColor = 'orange'
+}

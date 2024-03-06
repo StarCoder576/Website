@@ -381,3 +381,42 @@ p.home-heading {
 
 
 
+#multiplierButtons {
+  display: inline-block;
+  position: fixed;
+
+  width: 16vw;
+  height: 5vh;
+  top: 87.5vh;
+  left: 5vw;
+}
+
+.multiplier-buttons {
+  width: auto; 
+  height: 100%;  
+  margin-right: 5vw;
+  text-align: center;
+
+  display: inline-block;  
+  cursor: pointer;
+  color: #fff; 
+  text-decoration: none; 
+  border: 5px solid #444;
+  border-radius: 0.4rem; 
+  font-size: 2vw; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+  background-color: orange;
+  &:hover {
+    background-color: #ffbb3e; 
+    color: #ddd;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
+
+}
+
+
