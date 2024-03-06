@@ -41,7 +41,7 @@ function back() {
     checkout.style.display = 'none';
     cartbutton.style.display = 'inline-block'
     addtocartbutton.style.display = 'none'
-    multiplierButtons.stlye.display = 'none'
+    multiplierButtons.style.display = 'none'
 }
 
 // Dark Mode/ Light Mode Button ##################################################################
@@ -253,7 +253,7 @@ function chairarea() {
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'Chair'
-    multiplierButtons.stlye.display = 'inline-block'
+    multiplierButtons.style.display = 'inline-block'
     updatePrice()
 }
 
@@ -283,7 +283,7 @@ function tablearea() {
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'Table'
-    multiplierButtons.stlye.display = 'inline-block'   
+    multiplierButtons.style.display = 'inline-block'   
     updatePrice()
 }
 
@@ -313,7 +313,7 @@ function stoolarea () {
     homebuttons.style.display = 'none'
     heading.style.display = 'inline-block'
     furnituremode = 'Stool'
-    multiplierButtons.stlye.display = 'inline-block'
+    multiplierButtons.style.display = 'inline-block'
     updatePrice()
 }
 
@@ -662,7 +662,7 @@ function cartarea () {
     cartbutton.style.display = 'none'
     checkout.style.display = 'inline-block';
     addtocartbutton.style.display = 'none'
-    multiplierButtons.stlye.display = 'none'
+    multiplierButtons.style.display = 'none'
     updateTotal()
 }
 
