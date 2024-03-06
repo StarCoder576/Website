@@ -9,7 +9,6 @@ body {
 #colorblock {
   display: inline-block;
   position: fixed;
-  color: #ffffff;
   background-color: #18ed78;
   width: 90vw;
   height: 85vh;
@@ -394,7 +393,6 @@ p.home-heading {
 .multiplier-buttons {
   width: auto; 
   height: 100%;  
-  margin-right: 5vw;
   text-align: center;
 
   display: inline-block;  
@@ -419,7 +417,9 @@ p.home-heading {
 
 }
 
-
+#button1x { 
+  background-color: rgb(124, 80, 0);
+}
 
 
 
