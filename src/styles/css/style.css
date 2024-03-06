@@ -14,6 +14,7 @@ body {
   height: 85vh;
   top: 7.5vh;
   left: 5vw;
+  user-select: none;
 }
 
 .mode-button {
@@ -269,7 +270,6 @@ p.home-heading {
   left: .25vw;
   color: black;
   height: auto;
-  user-select: none;
   background-color: white;
 }
 
@@ -333,6 +333,7 @@ p.home-heading {
   top: 10vh;
   left: 37.5vw;
   text-align: center;
+  user-select: text;
 }
 
 #checkoutTitle {
