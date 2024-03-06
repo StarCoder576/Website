@@ -382,7 +382,7 @@ p.home-heading {
 
 
 #multiplierButtons {
-  display: inline-block;
+  display: none;
   position: fixed;
 
   width: 16vw;
