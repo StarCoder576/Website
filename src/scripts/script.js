@@ -776,7 +776,7 @@ function addtocart() {
 
 
 function buy() {
-    buycounter = Math.floor(Math.random() * 40) + 1;
+    buycounter = Math.floor(Math.random() * 50) + 1;
     console.log(buycounter)
     if (buycounter === 1) {
         alert('Did You Really Think You Could Buy Stuff On This Website?')
@@ -870,7 +870,6 @@ function buy() {
         alert("Yes, Touch The BeeHive, This Will Go Well")
     }
     
-
     if (buycounter === 26) {
         alert("Why?")
     }
@@ -929,6 +928,46 @@ function buy() {
     
     if (buycounter === 40) {
         alert("Lock Your Doors Tonight")
+    }
+    
+    if (buycounter === 41) {
+        alert("Ha, Loser")
+    }
+    
+    if (buycounter === 42) {
+        alert("If A Tree Falls, And No One Is Around To Hear It, Does It Make Any Sound At All? The Answer Is Yes")
+    }
+    
+    if (buycounter === 43) {
+        alert("You Forgot To Flush")
+    }
+    
+    if (buycounter === 44) {
+        alert("You Left The Oven On")
+    }
+    
+    if (buycounter === 45) {
+        alert("You're Now Manually Breathing")
+    }
+    
+    if (buycounter === 46) {
+        alert("You're Now Manually Blinkin")
+    }
+    
+    if (buycounter === 47) {
+        alert("You Can Now Feel Your Tongue In Your Mouth")
+    }
+    
+    if (buycounter === 48) {
+        alert("BEHIND YOU!")
+    }
+    
+    if (buycounter === 49) {
+        alert("Go Do Something Productive")
+    }
+    
+    if (buycounter === 50) {
+        alert("You Lost The Game")
     }
     
 }
