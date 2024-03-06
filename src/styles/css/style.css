@@ -266,6 +266,7 @@ p.home-heading {
   border-radius: 5px;
   width: 17vw;
   left: .25vw;
+  color: black;
   height: auto;
   user-select: none;
   background-color: white;
