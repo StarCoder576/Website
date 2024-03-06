@@ -17,24 +17,24 @@ body {
 }
 
 .mode-button {
-  display: inline-block;
-  position: fixed;
-  width: 8vw;
+  display: inline-box;
+  position: relative;
+  width: 3vw;
   height: 8vh;
-  top: 7.5vh;
-  right: 5vw;
+  top: 0vh;
+  left: 86vw;
   z-index: 3;
 
 }
 
 .mode-button img {
-  height: 100%;
-  width: auto;
+  height: auto%;
+  width: 100%;
 
     display: inline-block;  
   cursor: pointer; 
   text-decoration: none; 
-  border: 5px solid #444;
+  border: 1vh solid #444;
   border-radius: 0.4rem; 
   font-size: 2vw; 
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
