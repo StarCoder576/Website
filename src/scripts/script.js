@@ -679,7 +679,7 @@ function calculatePrice () {
 
 
     if (woodmode === 'Oak') {
-        itemPrice += 425
+        itemPrice += 325
     }
 
     if (woodmode === 'Beech') {
@@ -691,11 +691,11 @@ function calculatePrice () {
     }
 
     if (woodmode === 'Mahogany') {
-        itemPrice += 475
+        itemPrice += 450
     }
 
     if (woodmode === 'Teek') {
-        itemPrice += 350
+        itemPrice += 500
     }
 
     if (legcount === 1) {
@@ -1002,8 +1002,6 @@ function multiply100x () {
     button10x.style.backgroundColor = 'orange'
     updatePrice()
 }
-
-
 
 
 

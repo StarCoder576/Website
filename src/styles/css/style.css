@@ -35,17 +35,10 @@ body {
   display: inline-block;  
   cursor: pointer; 
   text-decoration: none; 
-  border: 1vh solid #444;
-  border-radius: 0.4rem; 
   font-size: 2vw; 
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
-  background-color: #444;
+  
   &:hover {
-    background-color: #555; 
-    color: #ddd;
     transform: scale(1.1);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
   }
   
   &:active
@@ -55,8 +48,8 @@ body {
 .back-button {
   display: inline-block;
   position: fixed;
-  width: 5vw;
-  height: 5vw;
+  width: 3vw;
+  height: 3vw;
   top: 8.5vh;
   left: 6vw;
 
@@ -66,6 +59,13 @@ body {
 .back-button img {
   width: 100%;
   height: auto;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+  &:active
+    {transform: scale(0.9);}
 }
 
 #home {
@@ -245,11 +245,11 @@ p.home-heading {
 .cart-button {
   display: inline-block;
   position: fixed;
-  left: 12vw;
+  left: 8vw;
   top: 7.5vh;
 
-  width: 5vw;
-  height: 5vh;
+  width: 3vw;
+  height: 3vw;
 }
 
 .cart-button img {
