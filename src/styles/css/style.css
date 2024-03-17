@@ -15,15 +15,16 @@ body {
   top: 7.5vh;
   left: 5vw;
   user-select: none;
+  font-family: Garamond; 
 }
 
 .mode-button {
   display: inline-block;
-  position: relative;
+  position: fixed;
   width: 3vw;
   height: 8vh;
-  top: 0vh;
-  left: 86vw;
+  top: 8.5vh;
+  left: 91vw;
   z-index: 3;
 
 }
@@ -38,18 +39,18 @@ body {
   font-size: 2vw; 
   
   &:hover {
-    transform: scale(1.1);
+    transition: 0.5s ease; transform: scale(1.1);
   }
   
   &:active
-    {transform: scale(0.9);}
+    {transition: 0.1s ease; transform: scale(.9);}
 }
 
 .back-button {
   display: inline-block;
   position: fixed;
-  width: 3vw;
-  height: 3vw;
+  width: 4vw;
+  height: 4vw;
   top: 8.5vh;
   left: 6vw;
 
@@ -61,11 +62,11 @@ body {
   height: auto;
 
   &:hover {
-    transform: scale(1.1);
+    transition: 0.5s ease; transform: scale(1.1);
   }
   
   &:active
-    {transform: scale(0.9);}
+    {transition: 0.1s ease; transform: scale(.9);}
 }
 
 #home {
@@ -121,7 +122,8 @@ p.home-heading {
   }
   
   &:active
-    {transform: scale(0.9);}
+    {transform: scale(0.9);
+    }
 }
 
 
@@ -244,18 +246,25 @@ p.home-heading {
 
 .cart-button {
   display: inline-block;
-  position: fixed;
-  left: 8vw;
-  top: 7.5vh;
+  position: relative;
+  left: 5vw;
+  top: 1vh;
 
-  width: 3vw;
-  height: 3vw;
+  width: 4vw;
+  height: 4vw;
 }
 
 .cart-button img {
   width: 100%;
   height: auto;
   cursor: pointer;
+
+  &:hover {
+    transition: 0.5s ease; transform: scale(1.1);
+  }
+  
+  &:active
+    {transition: 0.1s ease; transform: scale(.9);}
 }
 
 
