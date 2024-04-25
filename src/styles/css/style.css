@@ -39,11 +39,11 @@ body {
   font-size: 2vw; 
   
   &:hover {
-    transition: 0.5s ease; transform: scale(1.1);
+    transition: 0.3s ease; transform: scale(1.1);
   }
   
   &:active
-    {transition: 0.1s ease; transform: scale(.9);}
+    {transition: 0.3s ease; transform: scale(.9);}
 }
 
 .back-button {
@@ -62,11 +62,11 @@ body {
   height: auto;
 
   &:hover {
-    transition: 0.5s ease; transform: scale(1.1);
+    transition: 0.3s ease; transform: scale(1.1);
   }
   
   &:active
-    {transition: 0.1s ease; transform: scale(.9);}
+    {transition: 0.3s ease; transform: scale(.9);}
 }
 
 #home {
@@ -260,11 +260,11 @@ p.home-heading {
   cursor: pointer;
 
   &:hover {
-    transition: 0.5s ease; transform: scale(1.1);
+    transition: 0.3s ease; transform: scale(1.1);
   }
   
   &:active
-    {transition: 0.1s ease; transform: scale(.9);}
+    {transition: 0.3s ease; transform: scale(.9);}
 }
 
 

@@ -735,6 +735,7 @@ function additem() {
 
 function updateTotal () {
     document.getElementById("checkoutTitle").textContent = `Current Total: $${totalcost}`
+    
 }
 
 
